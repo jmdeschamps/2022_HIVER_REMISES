@@ -1,0 +1,10 @@
+Sebastian Perez
+
+2022-02-07
+Les carrés rebondissent à l'extérieur du carré blanc mais ils rebondissent tout de même. 
+Il n'est pas possible de garder un high-score dans le programme mais le collisions 
+entre les sentinelles et le carré rouge fonctionnent.Le jeu ainsi que le temps s'arrete lors de 
+collisions. il n'est pas possible de recommencer une nouvelle partie dans laquelle tous les elements
+retournent à leur position d'origine sans fermer le logiciel.
+
+Merci enormement pour toute l'aide.  

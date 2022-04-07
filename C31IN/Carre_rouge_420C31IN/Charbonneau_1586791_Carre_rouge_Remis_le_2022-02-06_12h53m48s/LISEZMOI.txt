@@ -1,0 +1,29 @@
+# Nicolas Charbonneau
+# Dimanche le 6 février 2022
+
+CARRÉ ROUGE
+
+Fonctionnalités du programme
+
+Le jeu est 100% fonctionnel. 
+Le déplacement du pion et des sentinelles est codé. 
+Le programme comporte aussi la vérification des collisions et la vérification de sortie des limites du jeu.
+Lorsque la partie se termine par l'une des deux conditions précédentes, un menu de fin de partie s'affiche et indique le temps survécu.
+Les options rejouer une partie et retourner au menu principal ont été ajouté à ce menu.
+La personnalisation des dimensions des objets et du jeu ainsi que le choix de difficulté lié à la vitesse des sentinelles ont été ajoutés aux options du jeu.
+L'incrémentation de la vitesse avec la difficulté progressive est fonctionnelle.
+Une formule de calcul de points a été conçu pour classer les parties selon les options sélectionnées.
+L'affichage des informations sur la session, l'enregistrement et la supression ont été implémentés.
+L'affichage des scores, le tri et la supression fonctionnent parfaitement.
+
+Aide à l'usager
+
+Lorsqu'on exécute le programme, ce-dernier affiche le menu principal. Il est alors possible de configurer les options de la partie puis de lancer la partie en cliquant sur "Jouer".
+Pour démarrer la partie, il suffit de cliquer sur le pion (carré rouge). Les sentinelles commmenceront alors à se déplacer.
+Le but du jeu est d'éviter les collisions avec les sentinelles sans jamais sortir du cadre blanc.
+Pour déplacer le pion, il faut maintenir le clic gauche de la souris et déplacer le curseur vers la position souhaitée.
+Lorsque la partie se termine, il est possible de jouer à nouveau en cliquant sur "Rejouer" ou bien on peut retourner au menu principal.
+Il est possible de consulter les dernières parties jouées en cliquant sur "Session" dans le menu principal. 
+Dans ce menu, il est possible d'enregistrer ses scores en y ajoutant son nom. Si aucun nom n'est mentionné, ce-dernier sera "anonyme".
+Il est aussi possible de consulter les scores sauvegardés en cliquant sur "Scores" dans le menu principal. 
+Dans ce menu, on peut trier les scores selon le nombre de points cumulés. On peut aussi supprimer les scores.

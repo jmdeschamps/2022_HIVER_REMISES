@@ -1,0 +1,24 @@
+Auteurs : Nicolas Charbonneau, Jacques Duymentz
+Date: 27 janvier 2022
+************************************************
+
+JEU DES DALEKS
+
+
+Fonctionalités
+	Version finale, ne contient pas les fonctions optionnelles "Run to end", ni "Run-1". 
+	Le programme permet de jouer aux Daleks, donc de déplacer le docteur pour le faire s'enfuir des daleks qui le poursuivent. 
+	Si un dalek est sur la même case que lui, le docteur meurt. 
+	Lorsque des daleks se rencontrent sur une même case, ils deviennent un tas de ferraille, le docteur ne peut s'y déplacer, et les daleks qui vont dessus meurent.
+	Le docteur peut utiliser la téléportation, qui le téléporte sur une case qui n'est pas un tas de ferraille, et selon les 3 niveaux de difficulté. 
+	Il peut utiliser aussi le zappeur, pour faire disparaître les daleks à une case autour de lui. 
+	Le joueur peut consulter les scores et les trier. Il peut aussi changer la difficulté et les dimensions du jeu dans le menu principal.
+	Lorsque tous les daleks sont éliminés, le jeu démarre un nouveau niveau, avec 5 daleks de plus à chaque fois, et un zappeur de plus cumulable.
+	Chaque dalek éliminé donne 5 points.
+	Lorsque le docteur meurt, le joueur peut enregistrer son score.
+	 
+Aide à l'usager
+	En lançant le programme, l'utilisateur peut démarrer une partie avec des dimensions et une difficulté par défaut, ou il peut consulter les scores, ou modifier les options.
+	Il suffit de lire les menus (principal, options, scores, jeu) pour choisir les actions selon les touches qui les génèrent selon les légendes affichées.
+ 
+	

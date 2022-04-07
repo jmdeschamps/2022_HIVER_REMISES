@@ -1,0 +1,48 @@
+----------------------------------------
+------------- CARRÉ ROUGE --------------
+----------------------------------------
+Par Déric Marchand
+Janvier 2021
+
+VERSION 1.0
+La version actuelle comprend les fonctionnalités
+essentielles du jeu du Carré Rouge y compris une manière
+d'enregistrer et d'afficher les scores.
++ Dessins des aires de jeu, des sentinelles et du carré rouge
++ Activation de la partie avec clic initial
++ Carré rouge se déplace avec le curseur
++ Déplacement continue des sentinelles avec rebonds
++ Détection des collisions avec sentinelles
++ Détection des collisions avec cadre interne
+
+FONCTIONNALITÉS À VENIR
++ Changement aléatoire des tailles des sentinelles
++ Vitesse alternative gérée aléatoirement au cours d'une partie
++ Configuration initiale aléatoire des sentinelles
+
+NOTE À PROPOS DES CRC
+Dans le Chiffrier du Projet, il y a un écart important entre les CRC
+établies à l'origine et le code finale. La raison en est que les CRC ont
+été pensées initialement sans disposer du code du professeur. Une fois
+ce code entre les mains, j'ai tenté de construire le projet à partir de sa logique
+interne plutôt que de le déconstruire pour l'adapter à ma logique intiale.
+
+Étant donné le temps dont nous disposions pour réaliser le projet, j'ai préféré ne pas
+revenir sur cette partie du Chiffrier et la réécrire simplement pour l'idée
+de la réécrire alors que le programme est complété. J'ai été, pour ainsi dire,
+« agile »...
+
+
+QU'EST-CE QUE LE JEU DU CARRÉ ROUGE?
+Vous contrôlez un Pion (Carré rouge) à l'intérieur d'une aire de jeu délimitée.
+Vous devez éviter de déborder de cette aire de jeu ou encore d'entrer en collision 
+avec les sentinelles qui se déplacent en diagonales et qui, 
+elles, peuvent sortir du cadre interne jusqu'aux limites de la fenêtre.
+
+Vous ne vous débarasserez jamais de ces sentinelles puisqu'elles on découvert 
+le secret de l'immortalité. Ainsi, il s'agit non pas de savoir si vous pouvez
+survivre, mais plutôt combien de temps vous pourrez survivre...
+
+CONTRÔLES
+Clic-gauche avec souris sur le Carré Rouge.
+Maintenez-le ou dites adieu à votre partie!

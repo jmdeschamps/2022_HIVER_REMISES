@@ -1,0 +1,72 @@
+﻿-----------------------------------------
+-------- ORION, UN NOUVEL HORIZON -------
+-----------------------------------------
+AUTEURS
+	Manil Boudjemai
+	William Caron
+	Laurence Carrier
+	Samuel Horvath
+	Déric Marchand
+
+GRAPHIQUES PERSONNALISÉS
+	William Caron
+
+À PARTIR DU TRAVAIL DE
+	Jean-Marc Deschamps
+
+
+PRÉSENTATION
+Orion, Un Nouvel Horizon est un jeu de type RTS qui
+cherche à promouvoir, à l'instar de la série Civilization® par Sid Meier,
+des interactions de nature diverse entre les joueurs, où
+la guerre se révèle souvent être le dernier recours. En effet, les joueurs 
+doivent user de finesse, d'intelligence et de diplomatie, car le Marché interstellaire
+et le Sénat régissent en grande partie les dynamiques de pouvoir de l'univers.
+De plus, la civilisation qui saura se développer le plus adéquatement d'un point
+de vue technique aura un avantage certain sur les autres.
+
+Forgez des alliances,
+choisissez la prochaine loi à voter,
+et manipulez l'offre et la demande au sein de l'univers.
+
+Orion, Un Nouvel Horizon : la prochain révolution vidéo-ludique.
+
+
+VERSION 1.0
++ Construction de vaisseaux (sans coût pour le moment)
++ Envoi de vaisseaux sur des Étoiles conquises par le joueur
++ Types de vaisseaux dédiés à différents usages
+	- Cargo : extraction de ressource (extraction d'énergie seulement pour l'instant)
+	// Vaisseaux non-fonctionnelles :
+	- Colonisateur : coloniser étoiles habitables
+	- Scout : exploration de l'univers, capture de capsules d'informations
+	- Destroyer : combat, coûteux, beaucoup de vie et vitesse lente
+	- Spacefighter : combat, peu coûteux, peu de vie, peu de dégâts, vitesse rapide
++ Capsules d'information :
+	- Transportées par les vaisseaux et capturées automatiquement selon divers scénarios, 
+	ouvertes automatiquement lorsqu'un vaisseau qui contient des capsules d'informations 
+	entre dans le rayon d'une Étoile colonisée par un joueur (habitable avec structures)
++ Interface mise en place :
+	- Affichage des informations d'une Étoile sélectionnée (panneau latéral gauche)
+	- Affichage des informations d'un vaiseau sélectionné (panneau latéral gauche)
+	- Affichage des ressources possédées par le joueur (panneau supérieur)
+	- Affichage de différents boutons de menu (panneau supérieur)
+		- Affichage d'une fenêtre lors du clique d'un bouton
++ Possible d'extraire de l'énergie sur une Étoile avec un Cargo (bientôt autres ressources):
+	- Sélectionner Cargo et cliquer sur Étoile avec énergie disponible
+	- Sélectionner Cargo et cliquer sur Étoile possédée par le joueur pour le dépôt
++ Affichage de sprites personnalisés de vaisseaux
+	- Scout
+	- Spacefighter
+
+
+FONCTIONNALITÉS À VENIR (2.0)
+
++ Extraction de multiples ressources
++ Colonisation possible d'une étoile avec vaisseau Colonisateur
++ Construction d'infrastructures sur des Étoiles colonisées (Bâtiments, Satellites, Merveilles du monde) et recrutement de figures d'importance
++ Combat entre vaisseaux et contre Étoiles colonisées des autres joueurs
++ Implémentation de technologies
++ Implémentation du marché lorsque les joueurs débloquent la technologie Intrication quantique
++ Trous de ver fonctionnelles
++ Entretien passif d'une civilisation (les ressources d'un joueur descendent peu à peu selon les populations et les vaisseaux)W

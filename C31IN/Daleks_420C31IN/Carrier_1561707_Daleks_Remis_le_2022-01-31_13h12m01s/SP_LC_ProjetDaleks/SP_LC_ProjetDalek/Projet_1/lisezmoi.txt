@@ -1,0 +1,17 @@
+31 janvier 2022
+
+Projet : Jeu Daleks inspiré par le jeu d'Isaac Sukin (https://www.isaacsukin.com/sites/daleks/index.html)
+Auteurs : Sebastian Perez & Laurence Carrier
+
+Concept : Un jeu avec des vagues multiples d'ennemis, le but du jeu est de
+          survivre le plus longtemps possible face aux Daleks.
+
+Comment jouer :  Utiliser le numpad pour choisir votre direction,
+                 t : pour la teleportation
+                 et z : pour utiliser le zappeur.
+
+Problèmes techniques : Il n'y a pas de difficulté puisque les niveaux ne fonctionnent pas.
+                       Parfois, les Daleks ne se tranforment pas en tas de ferraille.
+
+Il manque donc les niveaux et les highscores. :)
+

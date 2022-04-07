@@ -1,0 +1,29 @@
+Auteurs :
+Mathieu Mailloux
+Jonathan Frédérix
+Karl Robillard Marchand
+Laurence Carrier
+
+Nom du projet : Jeu de tours de défense
+Version : Beta
+Description :
+    - But du jeu : L'Alliance rebelle est sous attaque, et elle a besoin de vous et de vos talents de stratégistes afin de coordonner une attaque
+		   de défense contre l'Empire galactique! 
+
+    - Caractéristiques du jeu :
+Thème : Star Wars, the Empire Strikes Back “L’Empire Contre Attaque”.
+Les tours Mitraillettes:Fréquence de tir:rapide\en ligne droite\de force faible. Elles sont bleues dans le magasin. 
+Les tours Lance Roquette: Fréquence de tir:lent\balles à tête chercheuse\de grande force.Elles sont vertes dans le magasin. 
+Les tours Shocker: Zone de dommage moyen autour de leur position.Elles sont rouges dans le magasin. 
+Les tours Sniper: Fréquence de tir rapide et automatique.Elles sont beigesdans le magasin. 
+                               
+                 
+    - Comment y jouer : 
+1. Choisir la difficultée désirée et ensuite, cliquer sur le niveau de votre choix. 
+2. À l'aide de la souris, sélectionner le type de la tour dans le magasin en bas à droite et ensuite cliquer à l'endroit désiré.
+
+Problèmes, bugs et autres manques pour un jeu fonctionnel :
+- bug graphique : 2 ATATs apparaissent, mais ils ne valent que pour un. 
+- bug scores : Nom n'est pas toujours demandé. 
+- bug interface : Il n’est pas possible de poser des tours dans le début du chemin à droite.
+- 2 Sentiers qui se relient entre eux.

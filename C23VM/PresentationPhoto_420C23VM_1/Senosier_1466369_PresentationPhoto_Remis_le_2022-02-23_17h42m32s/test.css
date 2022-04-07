@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  font-family: "Sen", sans-serif;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  background-image: url(bg.png);
+}
+
+.grid {
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2em;
+  column-gap: 1em;
+  row-gap: 2em;
+  padding-left: 6em;
+}
+
+img {
+  width: 80%;
+}
+
+iframe {
+  width: 500px;
+  height: 500px;
+  float: right;
+  margin-right: 200px;
+  margin-top: 2em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+header {
+  width: 100%;
+  background-color: firebrick;
+  padding: 1em 0;
+  padding-left: 6em;
+}

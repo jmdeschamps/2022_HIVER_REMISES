@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .title {
+            border: 10px outset black;
+            width: 60%;
+            margin-left: 20vw;
+        }
+        .titleText {
+            color:#A21B1B;
+            font-family: 'Comic Sans MS';
+            text-align: center;
+            font-size: 30px;
+            margin: 10px;
+        }
+        .select {
+            border: 10px outset black;
+            width: 50%;
+            margin-left: 25vw;
+            height:100%;
+        }
+        .firstR {
+            margin-left: 4em;
+            margin-right: 4em;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .secondR {
+            margin-left: 2em;
+            margin-right: 2em;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+        .firstRImg {
+            width: 100%;
+            height: 100%;
+        }
+        .secondRImg {
+            width: 100%;
+            height: 100%;
+        }
+        .iFrame {
+            width: 100%;
+            height: 100%;
+        }
+        .img {
+            border: 10px outset black;
+            margin-left:33%;
+            width: 31%;
+            height: 64vh;
+        }
+    </style>
+</head>
+
+<body style="background-color: #FFB0B0">
+    <div class="title"><p class="titleText">Chats qui mangent des fruits</p></div>
+    <br /><br />
+    <div class="img">
+        <iframe src="showImage.htm" name="iFrame" class="iFrame" allowfullscreen></iframe>
+    </div>
+    <br /><br />
+    <div class="select">
+        <br />
+        <div class="firstR">
+            <div>
+                <a href="Images/banane.jpg" target="iFrame" style="display:flex;align-items:stretch;">
+                    <img src="Images/banane.jpg" alt="banane" class="firstRImg" />
+                </a>
+            </div>
+            <div>
+                <a href="Images/fraise.jpg" target="iFrame">
+                    <img src="Images/fraise.jpg" alt="fraise" class="firstRImg" />
+                </a>
+            </div>
+            <div>
+                <a href="Images/melon.jpg" target="iFrame">
+                    <img src="Images/melon.jpg" alt="melon" class="firstRImg" />
+                </a>
+            </div>
+            <div>
+                <a href="Images/orange.jpg" target="iFrame">
+                    <img src="Images/orange.jpg" alt="orange" class="firstRImg" />
+                </a>
+            </div>
+        </div>
+        <br />
+        <div class="secondR">
+            <div>
+                <a href="Images/berry.jpg" target="iFrame">
+                    <img src="Images/berry.jpg" alt="berry" class="secondRImg" />
+                </a>
+            </div>
+            <div>
+                <a href="Images/peach.jpg" target="iFrame">
+                    <img src="Images/peach.jpg" alt="peach" class="secondRImg" />
+                </a>
+            </div>
+            <div>
+                <a href="Images/pear.jpg" target="iFrame">
+                    <img src="Images/pear.jpg" alt="pear" class="secondRImg" />
+                </a>
+            </div>
+            <div>
+                <a href="Images/pomme.jpg" target="iFrame">
+                    <img src="Images/pomme.jpg" alt="pomme" class="secondRImg" />
+                </a>
+            </div>
+            <div>
+                <a href="Images/fruits.jpg" target="iFrame">
+                    <img src="Images/fruits.jpg" alt="fruits" class="secondRImg" />
+                </a>
+            </div>
+        </div>
+        <br />
+    </div>
+</body>
+
+</html>

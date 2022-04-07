@@ -1,0 +1,58 @@
+----------------------------------------
+---------- LE JEU DES DALEKS -----------
+----------------------------------------
+Par Déric Marchand et Karl Robillard-Marchand
+Janvier 2021
+
+VERSION 1.0
+La version actuelle comprend toutes les fonctionnalités
+de base attendues dans un Jeu des Daleks : 
++ niveaux successifs infinis
++ monde non-communicant
++ poursuite automatisée et simultanée des Daleks
++ mouvements en diagonale
++ attente possible du Docteur
++ accès à un zapper
++ téléportation variable selon difficulté
++ taille de niveaux paramétrable
++ gestion d'un tableau de scores
+
+FONCTIONNALITÉS À VENIR
++ run (to end) : pour le reste du niveau,
+le Docteur demeure immobile et attire tous les Daleks
++ run -1 : idem, mais laisse reconfère le contrôle au joueur
+lorsqu'un Dalek est sur le point de tuer le Docteur
+
+QU'EST-CE QUE LE JEU DES DALEKS?
+Ceci est un jeu de Daleks. Vous contrôlez le Docteur qui cherche à échapper
+aux Daleks infatigables qui le poursuivent. Pour se débarasser de ses ennemis,
+le Docteur force la collision des robots sans pitié, générant au passage des tas 
+de ferailles mortels pour eux. 
+
+En plus de l'intelligence réduite des Daleks, le Docteur bénéficie
+d'un zapper efficace aux charges cumulatives qui lui permet de nettoyer 
+d'un seul coup la zone immédiate l'entourant. Une charge du zapper est 
+ajoutée à l'inventaire du Docteur à chaque nouveau niveau, où l'attendent
+d'ailleurs une armée toujours plus imposante de Daleks.
+
+Enfin, le courageux Docteur peut se téléporter à volonté. Attention! Selon le
+niveau de difficulté choisi, le Docteur pourrait très bien attérir
+sous les pattes dévastatrices d'un Dalek et y laisser sa vie...
+
+TOUCHES DE CONTRÔLES
+W : Haut
+A : Gauche
+S : Bas
+D : Droite
+Q : Haut-Gauche
+E : Haut-Droite
+Z : Bas-Gauche
+C : Bas-Droite
+
+ESPACE : Attendre
+Z : Zapper (charges limitées)
+T : Téléportation
+
+*Notez qu'il est préférable d'exécuter le programme à l'aide de l'invite de commande
+de votre système d'exploitation plutôt que dans le terminal fourni par PyCharm.
+Celui-ci, en effet, ne tolère par le nettoyage d'écran utilisé par notre programme.

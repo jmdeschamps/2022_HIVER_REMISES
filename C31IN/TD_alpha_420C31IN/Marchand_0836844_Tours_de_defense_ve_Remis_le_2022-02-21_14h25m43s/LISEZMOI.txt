@@ -1,0 +1,49 @@
+-------------------------------------------
+---------- SMILE, EVEN A LITTLE -----------
+-------------------------------------------
+AUTEURS
+	Carlens Belony
+	Jessica Chan
+	Korallia Frenette
+	Déric Marchand
+
+GRAPHIQUES PERSONNALISÉS
+	Jessica Chan	
+
+PRÉSENTATION
+Smile, Even A Little est un jeu de type TowerDefense qui invite
+le joueur à protéger sa propre santé mentale. Les mauvaises
+pensées surgissent dans le subconscient et se dirigent inéluctablement
+vers la porte de la conscience. C'est au joueur de les faire taire avant
+qu'elles ne franchissent le seuil fatidique. Pour y parvenir, il suffit
+de déployer des tours de défense carburant à l'estime de soi,
+aux relations interpersonnelles ou encore à l'hygiène du sommeil.
+
+Enfin, il est parfois nécessaire de faire appel à la médicamentation
+pour se rétablir et garder le contrôle sur sa vie. Ainsi, le joueur
+pourra ingérer des anti-dépresseurs qui ralentissent le pas
+des mauvaises pensées. Ces caplets sont toutefois rares et il faudra
+choisir le moment opportun pour les utiliser.
+
+VERSION 1.0
++ Les creeps suivent adéquatement le chemin.
++ Un seul type de creep : le creep Dépression.
++ Deux types de tours :
+	- Tour Confiance, missiles à tête chercheuse.
+	- Tour Relation, laser puissant avec long cooldown.
++ Détection adéquate des tours pour attaquer les Creeps.
++ Gestions des vagues avec intervalles de générations de creeps variées.
++ Accélération progressive des creeps au fil des vagues
++ Gestion de Game Over et de Nouvelle Partie
+
+FONCTIONNALITÉS À VENIR
++ Anti-Dépresseurs (ralenti la vitesse de tous les creeps visibles)
++ Intersections
++ Tour de Sommeil : Grand effet de zone, peu de dégâts et long cooldown
++ Creep Anxiété : vitesse élevée
++ Creep Insomnie : rend davantage inefficace les tours dans son rayon d'action
++ Poser tour avec image de la tour sélectionner qui suit le curseur
++ Cartes supplémentaires
++ Affichage du butin par Creep Tué et du Dégât infligé à la Santé mentale par creep échappé
++ Accélérer la vague courante
++ BOSS

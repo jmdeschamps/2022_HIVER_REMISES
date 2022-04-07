@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Les 9 images</title>
+</head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<!--Permet d'afficher les caractères avec des accents-->
+
+<h1 style="text-align: center;">Les 9 images - Les montagnes</h1>
+
+<body>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            background-color: rgba(255, 255, 255, 0.322);
+        }
+
+        .flex-container>div {
+            background-color: #ffffff;
+            width: 100%;
+            height: 100%;
+            margin: 0.2%;
+            line-height: 5%;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+
+        .responsive {
+            width: auto;
+            height: auto;
+        }
+
+        div #frame {
+            position: absolute;
+            margin: 5%;
+        }
+    </style>
+
+    <div id="frame" class="flex-container">
+        <iframe src="" name="iframe_IMG" frameborder="0" class="center" class="responsive" width="600px"
+            height="400px"></iframe>
+    </div>
+
+    <div class="flex-container">
+        <div>
+            <a href="IMG1.jpg" target="iframe_IMG"><img src="IMG1.jpg" width="100%" height="100%"></a>
+        </div>
+
+        <div>
+            <a href="IMG2.jpg" target="iframe_IMG"><img src="IMG2.jpg" width="100%" height="100%"></a>
+        </div>
+
+        <div>
+            <a href="IMG3.jpg" target="iframe_IMG"><img src="IMG3.jpg" width="100%" height="100%"></a>
+        </div>
+
+        <div>
+            <a href="IMG4.jpg" target="iframe_IMG"><img src="IMG4.jpg" width="100%" height="100%"></a>
+        </div>
+
+        <div>
+            <a href="IMG5.jpg" target="iframe_IMG"><img src="IMG5.jpg" width="100%" height="100%"></a>
+        </div>
+
+        <div>
+            <a href="IMG6.jpg" target="iframe_IMG"><img src="IMG6.jpg" width="100%" height="100%"></a>
+        </div>
+
+        <div>
+            <a href="IMG7.jpg" target="iframe_IMG"><img src="IMG7.jpg" width="100%" height="100%"></a>
+        </div>
+
+        <div>
+            <a href="IMG8.jpeg" target="iframe_IMG"><img src="IMG8.jpeg" width="100%" height="100%"></a>
+        </div>
+
+        <div>
+            <a href="IMG9.jpg" target="iframe_IMG"><img src="IMG9.jpg" width="100%" height="100%"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- https://www.w3schools.com/css/css3_flexbox.asp pour positionnement! -->
+<!-- https://blogs.igalia.com/svillar/2021/01/20/flexbox-cats-a-k-a-fixing-images-in-flexbox/ Utiliser flexbox sur une image!! -->

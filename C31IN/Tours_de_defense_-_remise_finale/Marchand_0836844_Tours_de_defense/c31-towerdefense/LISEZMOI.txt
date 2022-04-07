@@ -1,0 +1,58 @@
+-------------------------------------------
+---------- SMILE, EVEN A LITTLE -----------
+-------------------------------------------
+AUTEURS
+	Carlens Belony
+	Jessica Chan
+	Korallia Frenette
+	Déric Marchand
+
+GRAPHIQUES PERSONNALISÉS
+	Jessica Chan
+	Déric Marchand
+
+
+PRÉSENTATION
+Smile, Even A Little est un jeu de type TowerDefense qui invite
+le joueur à protéger sa propre santé mentale. Les mauvaises
+pensées surgissent dans le subconscient et se dirigent inéluctablement
+vers la porte de la conscience. C'est au joueur de les faire taire avant
+qu'elles ne franchissent le seuil fatidique. Pour y parvenir, il est impératif
+de déployer des tours de défense carburant à l'estime de soi,
+aux relations interpersonnelles ou encore à l'hygiène du sommeil.
+
+Enfin, il est parfois nécessaire de faire appel à la médicamentation
+pour se rétablir et garder le contrôle sur sa vie... Ainsi, le joueur
+pourra ingérer des anti-dépresseurs qui ralentissent le pas
+des mauvaises pensées. Ces caplets sont toutefois rares et il faudra
+choisir le moment opportun pour les utiliser.
+
+
+VERSION 2.0
++ Les creeps suivent adéquatement le chemin.
++ Détection adéquate des tours pour attaquer les Creeps.
++ Gestions des vagues avec intervalles de générations de creeps variées.
++ Accélération progressive des creeps et augmentation de leurs points de vie au fil des vagues
++ Trois types de creep : 
+	- Dépression (creep régulier)
+	- Anxiété (vitesse accrue, peu de vie)
+	- Insomnie (vitesse lente, beaucoup de vie, ralenti les tours environnantes)
++ BOSS Anxiété de performance (Carte 1). Lent, beaucoup de vitesse. -1 Santé mentale de manière périodique
+	tant et aussi longtemps qu'il est en vie. Mieux vaut avoir suffisament de Santé mentale au moment de son apparition!
++ Trois types de tours :
+	- Tour Confiance, missiles à tête chercheuse.
+	- Tour Relation, laser puissant avec long cooldown.
+	- Tour Sommeil, zone d'effet extensible qui endommage tous les creeps à l'intérieur
++ Action spéciale : Anti-Dépresseur. Ralenti de manière permanente tous les Creeps visible sur la carte. Effet cumulatif.
++ Début de la partie avec un seul Anti-Dépresseur. Les creeps ont 1/25 de générer un Anti-Dépresseur à leur mort plutôt que de la motivation.
++ Gestion de : 
+	- Game Over 
+	- Nouvelle Partie (Depuis menu et à depuis une partie en cours)
+	- Score (Saisie et affichage depuis Menu principal)
++ Menu principal avec explications des touches de contrôles (Esc : PAUSE / Space : ANTI-DÉPRESSEUR)
+
+
+FONCTIONNALITÉS À VENIR (3.0)
+
++ Intersections
++ Cartes supplémentaires

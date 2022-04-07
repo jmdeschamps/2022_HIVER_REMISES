@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Présentation de mes jeux de gestion préférés</title>
+        <style>
+            .affichage
+            {
+                height : 100vh;
+                display: grid;
+                grid-template-columns : 30% 40% 30%;
+                grid-template-rows : 10% 80% 10%;
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+
+                border-radius: 2em;
+                margin: 2em;
+                box-shadow: 20px 20px 40px rgba(0,0,0,0.4);
+
+                background-image: url("../Grille photo/Images/Background.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
+            .titre
+            {
+                margin-top : 1em;
+                font-weight: bold;
+                margin-bottom: 1em;
+                font-size: 25px;
+                text-align: center;
+            }
+            .fleximage
+            {
+                height: 100%;
+                max-height: 100%;
+                flex-direction: column;
+                flex-wrap: wrap;
+                min-width: 0;
+                text-align: center;
+            }
+            .imgflex
+            {
+                margin-top: 1em;
+                max-height: 21%;
+                border-style: solid;
+                border-radius: 3em;
+                box-shadow:rgba(0,0,0,0.4);
+            }
+            .iframe
+            {
+                width: 700px;
+                height: 394px;
+                margin-top: 5em;
+                margin-left : 0.8em;
+                
+                border-radius : 3em;
+                box-shadow: rgba(0,0,0,0.4);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class = "affichage">
+            <div></div>
+            <div> <p class = "titre" style="border-bottom-style: solid; border-color : grey">Mes jeux de gestions préférés</p></div>
+            <div></div>
+
+            <div>
+                <div class ="fleximage"> 
+                    <a href = "../Grille photo/Images/Cities Skyline.copie.jpg" target = "Images"><img class= "imgflex" src="../Grille photo/Images/Cities Skyline.jpg"></a>
+                    <a href = "../Grille photo/Images/Frostpunk.copie.jpg" target = "Images"><img class= "imgflex" src="../Grille photo/Images/Frostpunk.jpg"></a>
+                    <a href = "../Grille photo/Images/Oxygen Not Included.copie.png" target = "Images"><img class= "imgflex" src="../Grille photo/Images/Oxygen Not Included.copie.png"></a>
+                    <a href = "../Grille photo/Images/Prison Architect.Copiejpg.jpg" target = "Images"><img class= "imgflex" src="../Grille photo/Images/Prison Architect.jpg"></a>
+                </div>
+            </div>
+            <div> <iframe scrolling="no" class = "iframe" src="../Grille photo/Images/Image.png" name="Images"> </iframe></div>
+            <div>  
+                <div class ="fleximage"> 
+                    <a href = "../Grille photo/Images/Project Zomboid.copie.png" target = "Images"><img class= "imgflex" src="../Grille photo/Images/Project Zomboid.png"></a>
+                    <a href = "../Grille photo/Images/Rimworld.copie.jpg" target = "Images"><img class= "imgflex" src="../Grille photo/Images/Rimworld.jpg"></a>
+                    <a href = "../Grille photo/Images/Subnautica.copie.jpg" target = "Images"><img class= "imgflex" src="../Grille photo/Images/Subnautica.jpg"></a>
+                    <a href = "../Grille photo/Images/Tropico 6.copie.jpeg" target = "Images"><img class= "imgflex" src="../Grille photo/Images/Tropico 6.copie.jpeg"></a>
+                </div> 
+            </div>
+
+            <div></div>
+            <div><center> Document créé par Christopher Perreault dans le cadre du Cours Web de Jean-Marc Deschamps.</center></div>
+            <div></div>
+        </div>
+    </body>
+</html>

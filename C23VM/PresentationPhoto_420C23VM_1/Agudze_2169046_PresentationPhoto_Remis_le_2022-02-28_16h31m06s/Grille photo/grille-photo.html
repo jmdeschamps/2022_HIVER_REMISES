@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        #bandeau{
+            width: 100%;
+            height: 80px;
+            margin-top: 0;
+            margin-bottom: 3%;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:visited{
+            text-decoration: none;
+        }
+        #bandeau h1{
+            margin-bottom: 1rem;
+        }
+        #corp{
+            display: flex;
+            width: 95%;
+            height: 100%;
+            justify-content: space-between;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        #grille{
+            flex: auto;
+            display: flex;
+            height: 100%;
+            width: 30%;
+            justify-content: space-around;
+        }
+        #cadre{
+            flex: auto;
+            height: 750px;
+            width: 60%;
+        }
+        .col{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            height: 750px;
+            padding: auto;
+        }
+        .col img{
+            width: 80%;
+        }
+        #col1{
+            justify-content: space-between;
+            text-align: center;
+        }
+        #col2{
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        iframe{
+            display: block;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="bandeau">
+        <h1>Nadav Kander</h1>
+        <p><a href="https://www.nadavkander.com/works-in-series/gods-country/single">God's Country</a></p>
+    </div>
+    <div id="corp">
+        <div id="grille">
+            <div class="col" id="col1">
+                <a href="images/Corporation-Signs-Dusk-California-USA-1995.jpg" target="cadre"> 
+                    <img src="images/Corporation-Signs-Dusk-California-USA-1995.jpg" 
+                    alt="">
+                </a>
+                <a href="images/Holiness-Church-Indiana-USA-2000.jpg" target="cadre">
+                    <img src="images/Holiness-Church-Indiana-USA-2000.jpg" 
+                    alt="">
+                </a>
+                <a href="images/K-Mart-Deming-New-Mexico-USA-2000.jpg" target="cadre">
+                    <img src="images/K-Mart-Deming-New-Mexico-USA-2000.jpg" 
+                    alt="">
+                </a>
+                <a href="images/Last-Car-El-Paso-Texas-USA-1998.jpg" target="cadre">
+                    <img src="images/Last-Car-El-Paso-Texas-USA-1998.jpg" 
+                    alt="">
+                </a>
+                <a href="images/Last-truck-Crawfordsville-Indiana-USA-2003.jpg" target="cadre">
+                    <img src="images/Last-truck-Crawfordsville-Indiana-USA-2003.jpg" 
+                    alt="">
+                </a>
+            </div>
+            <div class="col" id="col2">
+                <a href="images/Monument-Utah-USA-1995.jpg" target="cadre">
+                    <img src="images/Monument-Utah-USA-1995.jpg" 
+                    alt="">
+                </a>
+                <a href="images/Red-Car-Indiana-USA-2000.jpg" target="cadre">
+                    <img src="images/Red-Car-Indiana-USA-2000.jpg" 
+                    alt="">
+                </a>
+                <a href="images/Smelting-Factory-Salt-Lake-Utah-USA-2009.jpg" target="cadre">
+                    <img src="images/Smelting-Factory-Salt-Lake-Utah-USA-2009.jpg" 
+                    alt="">
+                </a>
+                <a href="images/Supermarket-Car-Park-El-Paso-Texas-USA-2000.jpg" target="cadre">
+                    <img src="images/Supermarket-Car-Park-El-Paso-Texas-USA-2000.jpg" 
+                    alt="">
+                </a>
+            </div>
+        </div>
+        <div id="cadre">
+            <iframe src="images/Corporation-Signs-Dusk-California-USA-1995.jpg"
+            frameborder="0"
+            scrolling="no"
+            name="cadre"
+            width="100%" height="100%">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>

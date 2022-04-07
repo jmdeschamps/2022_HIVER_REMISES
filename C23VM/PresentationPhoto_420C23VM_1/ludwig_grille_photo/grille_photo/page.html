@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Image viewer</title>
+        <style>
+            .image-list {
+                margin-bottom: 5%;
+                margin-top: 1.5%;
+                gap: 5px;
+                display: flex;
+            }
+
+            .image-list > div {
+                text-align: center;
+            }
+
+            .image-list img {
+                max-width: 90%;
+                border-radius: 10px;
+                transition: all 0.25s ease-in-out;
+            }
+
+            .image-list img:hover {
+                transform: scale(1.2);
+                border-radius: 2px;
+            }
+            .display {
+				margin: auto;
+                text-align: center;
+                height: 1000px;
+                width: 1000px;
+            }
+            
+            .display iframe {
+                width: 80%;
+				height: 80%;
+                transition: all 1.5s ease-in-out;
+            }
+
+            .display iframe:hover {
+                height: 100%;
+                width: 100%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="header">
+        </div>
+        <div class="image-list">
+            <div><a href="images/earth.jpg" target="iframe-center"><img src="images/earth.jpg"></a></div>
+            <div><a href="images/jupiter.jpg" target="iframe-center"><img src="images/jupiter.jpg"></a></div>
+            <div><a href="images/mars.jpg" target="iframe-center"><img src="images/mars.jpg"></a></div>
+            <div><a href="images/mercury.jpg" target="iframe-center"><img src="images/mercury.jpg"></a></div>
+            <div><a href="images/moon.jpg" target="iframe-center"><img src="images/moon.jpg"></a></div>
+            <div><a href="images/pluto.jpg" target="iframe-center"><img src="images/pluto.jpg"></a></div>
+            <div><a href="images/saturn.jpg" target="iframe-center"><img src="images/saturn.jpg"></a></div>
+            <div><a href="images/uranus.jpg" target="iframe-center"><img src="images/uranus.jpg"></a></div>
+            <div><a href="images/venus.jpg" target="iframe-center"><img src="images/venus.jpg"></a></div>
+        </div>
+        <br/>
+        <div class="display">
+            <iframe name="iframe-center" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </body>
+</html>

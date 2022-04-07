@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Les grands philosophes.</title>
+        <style>
+           .affichage 
+           {
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 10% 80% 10%;
+            grid-template-rows: 10% 80% 10%;
+            grid-column-gap: 1px;
+            grid-row-gap: 1px;
+            border-radius: 2em; 
+            margin: 2em;
+            box-shadow: 20px 20px 40px rgba(0,0,0,0.4)
+            }
+            .contenu
+            {
+                border-radius: 8px;
+                height:auto;
+                display: grid;
+                grid-template-columns: 80% 20%;
+                grid-template-rows: repeat(3, 1fr);
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+            }
+            .image
+            {
+                max-width: 100%;
+                max-height:80%;
+                height: auto;
+                float:right;
+                margin-right: auto;
+                margin-left : auto;
+                border-radius :8px;
+            }
+
+            .titre
+            {
+                margin-top: 3em;
+                font-size : 25px;
+                font-weight: bold;
+                margin-top: 0px;
+                margin-bottom: 1px;
+
+                
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="affichage">
+
+            <div></div>        <!-- Vide - Spacer-->
+            <div> 
+                <p class = "titre" style = "margin-top: 1em;"> Présentation de trois grand philosophes de l'histoire.</p>
+            </div>        <!-- Entête-->
+            <div> </div>        <!-- Vide - Spacer-->
+
+            <div> </div>        <!-- Vide - Spacer-->
+            <div class = "contenu">
+                <div>
+                    <p class = "titre">Wittgenstein </p>
+                    <p>Ludwig Wittgenstein ne publia de son vivant qu’une œuvre majeure<a href = "https://fr.wikipedia.org/wiki/Ludwig_Wittgenstein#cite_note-2"><sup>2</sup></a> : <a href = "https://fr.wikipedia.org/wiki/Tractatus_logico-philosophicus">le Tractatus logico-philosophicus</a>, dont une première version parut en 1921 à Vienne. 
+                    Dans cette œuvre influencée à la fois par la lecture de Schopenhauer et de Kierkegaard, et par Frege, Moore et Russell, Wittgenstein montre les limites du langage
+                     et de la faculté de connaître de l’être humain. Le Tractatus a donné lieu à de nombreuses interprétations<sup>3</sup>, parfois difficilement conciliables<sup>1</sup>. 
+                     Alors que la signification mystique<sup>4</sup> de ce texte est pour Wittgenstein éthique et esthétique<sup>5</sup>, la plupart des lectures ont mis en avant son intérêt en logique et
+                      en philosophie du langage. C’est l’une des pièces majeures de la philosophie de Wittgenstein, il est inspiré par un logicisme anti-psychologiste<sup>6</sup>, une position
+                       qu’il abandonna par la suite<sup>7</sup>. Récemment, des études qui lui sont consacrées ont commencé à considérer l’aspect mystique de l’œuvre comme central<sup>8</sup>. 
+                       Wittgenstein pensa alors avoir apporté une solution à tous les problèmes philosophiques auxquels il était envisageable de répondre ; il quitta l'Angleterre 
+                       et se détourna de la philosophie jusqu'en 1929. À cette date, il revint à Cambridge sur l’insistance de Bertrand Russell et George Moore, et critiqua les 
+                       principes de son premier traité. Il développa alors une nouvelle méthode philosophique et proposa une nouvelle manière d’appréhender le langage, développée 
+                       dans sa seconde grande œuvre, Investigations philosophiques, publiée, comme nombre de ses travaux, après sa mort. Cette autocritique sévère est rare dans 
+                       l’histoire de la philosophie, voire quasi inexistante<sup>9</sup>, faisant de Wittgenstein, au même titre que Platon<sup>N 1</sup>, un exemple de remise en question de sa propre 
+                       pensée. </p>
+                </div>
+                <div> <img  class = "image" src="Images/Wittgenstein.jpg"></div>
+                <div>
+                    <p class = "titre">Russel </p>
+                    <p>La logique est le fondement des mathématiques : Russell est, avec Frege, l'un des fondateurs de la logique contemporaine. Son ouvrage majeur, écrit avec Alfred North Whitehead, a pour titre 
+                        Principia Mathematica. À la suite des travaux d'axiomatisation de l'arithmétique de Peano, Russell a tenté d'appliquer ses propres travaux de logique à la question du fondement des
+                         mathématiques<sup>48</sup> (cf. logicisme). Il soutient l'idée d'une philosophie scientifique<sup>49</sup> et propose d'appliquer l'analyse logique aux problèmes traditionnels, tels que l'analyse de l'esprit, de 
+                         la matière (problème corps-esprit), de la connaissance, ou encore de l'existence du monde extérieur. Il est ainsi le père de la philosophie analytique. Jules Vuillemin le fera connaître en 
+                         France.Il écrit des ouvrages philosophiques dans une langue simple et accessible, en vue de faire partager sa conception d'une philosophie rationaliste œuvrant pour la paix et l'amour. 
+                         Il s'engage dans de nombreuses polémiques<sup>50</sup> qui lui valent le qualificatif de « Voltaire anglais »<sup>51</sup> ou de « Voltaire du XXe siècle »<sup>52, 53</sup>, défend des idées proches du socialisme<sup>54</sup> de tendance libertaire et 
+                         milite également contre toutes les formes de religion, considérant qu'elles sont des systèmes de cruauté inspirés par la peur et l'ignorance<sup>n 1</sup>. Il organise le tribunal Sartre-Russell contre les crimes commis 
+                         pendant la guerre du Viêt Nam. Son œuvre, qui comprend également des romans et des nouvelles, est couronnée par le prix Nobel de littérature en 1950<sup>55</sup>, en particulier pour son engagement humaniste et comme libre penseur. Enfin, il devient membre du Parlement britannique.</p>
+                </div>
+                <div>
+                    <img class = "image" src="Images/russell.jpg"></div>
+                <div>
+                    <p class = "titre">Bostrom</p>
+                    <p>Dans un article célèbre1, Bostrom démontre que s'il est possible de simuler des planètes habitées entières ou des univers même entiers, 
+                    il est très probable que nous vivions dans une simulation informatique. Son raisonnement est le suivant : il est probable que dans le futur, 
+                    notre civilisation atteindra un niveau de technologie tel qu'elle pourra créer des simulations informatiques extrêmement sophistiquées des esprits humains et 
+                    des mondes où habiter. Un simple ordinateur portable pourrait être l'habitation de milliers d'esprits simulés. Aussi, selon toute probabilité, les esprits simulés
+                     seront rapidement plus nombreux que les esprits biologiques. Les expériences des esprits biologiques et des esprits simulés seront impossibles à distinguer et 
+                     tous ces esprits penseront évidemment qu'ils ne sont pas simulés, mais les derniers seront en fait trompés. Or qu'est-ce qui peut nous prouver que nous 
+                     n'appartenons pas déjà à un de ces mondes simulés ? Rien et selon Bostrom il est donc très probable que nous soyons dans cette situation.</p>
+                </div>
+                <div><img class = "image" src="Images/bostrom.jpg"</div>
+
+
+            </div>         <!-- Information de texte-->
+            <div> </div>        <!-- Vide - Spacer-->
+
+            <div> </div>        <!-- Vide - Spacer-->
+            <div> Document créé par Christopher Perreault dans le cadre du cours de Web de Jean-Marc Deschamps. </div>        <!-- Infos de travail-->
+            <div> </div>        <!-- Vide - Spacer-->
+        </div>
+    </body>
+</html>
+
+
+<!-- border-radius: 2em; padding: 3em;box-shadow: 10px 10px 30px rgba(0,0,0,0.1);-->

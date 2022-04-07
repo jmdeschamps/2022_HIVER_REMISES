@@ -1,0 +1,20 @@
+Auteur: Jacques Duymentz
+Date: 7 février 2022
+************************************************
+
+JEU DU CARRÉ ROUGE
+
+
+Fonctionalités
+	Version fonctionnelle du concept, ne contient pas les options ni les scores.
+	Le programme permet de jouer avec le pion rouge et une seule sentinelle.
+	Dès que le carré rouge sort du cadre ou touche la sentinelle ou est touchée par la sentinelle ou qu'il est cliqué et relâché,
+	le pion et la sentinnelle sont repositionnés automatiquement, le tick(after) s'interrompt, le temps est affiché.
+Supplément:
+	Le curseur (son style) change selon la zone où il est, si une première partie a été jouée ou non, si la partie est en cours;
+	p.ex.: lorsque le curseur se situe su le carré rouge cliqué (on hold), il a le style "pirate".
+	 
+Aide à l'usager
+	L'utilisateur démarre une partie en cliquant sur le carré rouge.
+ 
+	

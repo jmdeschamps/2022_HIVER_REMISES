@@ -1,0 +1,31 @@
+-----------------------------------------
+--------- LE JEU DU CARRÉ ROUGE ---------
+-----------------------------------------
+Par Karl Robillard-Marchand
+Février 2021
+
+
+VERSION Alpha_0.1
+La version actuelle comprend toutes les fonctionnalités
+de base attendues : 
++ Possibilité de déplacer le carré rouge
++ Sentinelles qui se déplace dans la map et rebondissent sur les murs
++ Joueur doit éviter les sentinelles et les bordures de la zone blanche
++ Temps s'affiche à la fin de la partie
++ Arrêt du jeu lorsqu'on relache le clic
++ Possibilité de faire plusieurs parties
+
+
+FONCTIONNALITÉS À VENIR
++ Possibilité d'inscrire le nom du joueur
++ Possibilité de changer la difficulté et la vitesse des sentinelles
++ Possibilité d'exporter le score et l'afficher dans un menu des High Scores
++ Possibilité de changer la taille du jeu et le thème (Les couleurs)
+
+
+QU'EST-CE QUE LE JEU DU CARRÉ ROUGE?
+Ceci est un jeu durant lequel le joueur doit contrôler un carré rouge et lui faire éviter les sentinelles bleues
+qui patrouille le secteur. Si jamais les sentinelles vous rattrape, la partie se termine. Il est aussi interdit au 
+joueur de sortir de la zone de jeu (Zone blanche). Vous devez donc survivre le plus longtemps.
+Bonne chance!
+

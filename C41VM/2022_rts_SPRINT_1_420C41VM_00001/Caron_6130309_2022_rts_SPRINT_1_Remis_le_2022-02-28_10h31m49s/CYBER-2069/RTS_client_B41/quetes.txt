@@ -1,0 +1,7 @@
+number,title,progression,objective,state
+"1.1","Ramasser 200 ressources",0,200,"To Do"
+"1.2","Construire un batiment",0,1,"To Do"
+"1.3","Spawn un drone et le faire combattre",0,1,"To Do"
+"1.4","Accumuler 100 bitcoins",0,100,"To Do"
+"1.5","Trouver une gem sur un cadavre",0,1,"To Do"
+"1.6","Trouver un marchand et lui acheter un item",0,1,"To Do"
