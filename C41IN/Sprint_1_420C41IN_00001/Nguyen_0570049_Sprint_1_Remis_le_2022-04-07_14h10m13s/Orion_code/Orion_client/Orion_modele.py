@@ -245,7 +245,7 @@ class Joueur():
     def croissance_population(self):
         self.ressources["population"] += self.taux_croissance
 
-                           "materiaux": 10001}
+        #"materiaux": 10001}
         self.batiments = {"creeralimentation": self.creer_alimentation,
                           "creerscience": self.creer_science,
                           "creerindustrie": self.creer_industrie
