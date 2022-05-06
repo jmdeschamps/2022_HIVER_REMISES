@@ -1,0 +1,68 @@
+MEMBRES DE L'ÉQUIPE
+Yoan Poulin Truchon
+Sean Hayes
+Alexandre Caron
+Samuel Nadeau Mercado
+
+AVANT DE START LE PROGRAMME
+dans une invite de commande
+pip install playsound==1.2.2
+
+AJOUTS:
+-	changement du jour et de la nuit, se manifeste par un changement de couleur de l`environement graphique. 
+	Il manque la modification du gameplay qui sera affecté par ce changment (des pierres tombales apparaissent 
+	pour la récolte de ames)
+
+-	implémentation de la musique (La musique fonctionne en partie. manque d'ajouter les tracks à chaque changement
+	de jour et nuit, dans le menu de départ, à la fin quand on a un gagnant).
+
+-	création du personnage du Grim reaper a partir de l`ouvirer, il ne peut y avoir qu`un seul Grim reaper par joueur.
+
+-	le Grim reaper peut collecter jusqu`a 5 ames avant d`aller les reporter a l`usine.(pour l`instant on 
+	considere que les ames sont les ressources résiduelles des daims).
+
+-	création du personnage du kid reaper a partir du personnage soldat.
+
+-	le Kid reaper a un capacité passive a attirer les ames vers lui des qu`elles sont dans un périmetre donné
+	(qui sont toujours représenté par des daims).
+
+-	il ne peut y avoir qu`un seul Grim reaper (encore représenter par l`ouvirer) et un seul 
+	Funeral (encore représenté par la balliste), lorsqu`ils sont tués et que le count est a 0, on peut les recréer.
+
+
+CONCLUSIONS:
+		On peut conclure que pour ce sprint nous avons eu plus de difficulté a produire rapidement le code prévu. 
+	Nous sommes arrivée a environ 50% de nos objectifs. Toutefois nous avions prévu largement plus de tâches pour ce 
+	second sprint.
+		Si nous étions arrivée au terme des tâches prévues la conception de notre jeu serait presque termiée. Nous 
+	souhaitions mettre plus de tâche afin d`avoir un 3e sprint plus raisonnable. Nous avons peut-être eu plus de 
+	difficulté à faire des tâches complémentaires qui nous auraient permis d'avancer dans le code plus rapidment.
+
+	
+PROBLÈMES:
+-	Manque de communication en période de relâche et de grève.
+ 
+ NOUVEAUX CONTRÔLES
+
+	Bouton-1 - Maison (Porte):
+	On ne peut plus créer plusieurs ouvriers puisqu'ils représentent maintenant les Grim Reaper et on ne peut qu'en avoir un à la fois.
+
+	Bouton-1 - Usine Balliste (Farm):							
+	Pareil comme maison, on ne peut qu'avoir une Balliste (Funeral Reaper) à la fois
+
+	Bouton-1 - Abri:
+	Crée un Druide (Rogue Reaper) 
+	-- Il sert à voler les âmes des Usine Ballistes (farm) ennemis (pas encore implémenté)
+
+	Bouton-1: sur une ressource un ouvrier (Grim Reaper) est selectionné:			
+	commande d'aller ramasser cette ressource
+	Lorsque le l'ouvrier ramasse la ressource, deux boutons apparaissent en haut à gauche
+		C'est pour choisir où l'ouvrier apporte les ressources entre l'usine et la porte.
+	Toutes les ressources donnent des SOUL, ce sera la seule ressource du jeu.
+
+	Passif:
+	Kid Reaper attire constamment vers lui les daims qui sont à sa portée.
+
+	* CONTRAINTE DE CREATIONS DE BATIMENT:							
+		- Il n'y aura qu'une seule maison (porte) et usine balliste (farm) par équipe.
+  		On ne peut que les reconstruire lorsque détruites. (Pas encore possible de les détruire)

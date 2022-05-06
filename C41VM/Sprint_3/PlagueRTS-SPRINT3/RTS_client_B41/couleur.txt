@@ -1,0 +1,4 @@
+vert - virus
+bleu - fungus
+rouge - worm
+jaune - bacterie

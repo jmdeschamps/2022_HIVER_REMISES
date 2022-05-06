@@ -1,0 +1,5 @@
+Bug actuel
+
+Le 2e joueur rentre dans creer_entite lorsqu'on crée un kidReaper. 
+
+le 1er joueur rentre dans jouer_prochain_coup  lorsqu'on crée un kidreaper. 

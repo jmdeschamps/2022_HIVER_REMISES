@@ -1,0 +1,36 @@
+AJOUTS
+- 	la maison, l'usine balliste, un ouvrier et une balliste sont invoqué au début de la partie
+- 	l'usine balliste (sera une ferme d'âme) peut emmagasiner des âmes, et lorsqu'on 
+	clique dessus, ces âmes sont envoyés à la maison
+-	Le jour et la nuit sont implementé et change par rapport au temps en secondes
+-	au levé du jour 2, les âmes stocké dans la ferme sont doublés
+-	on a changé quelques assets (les arbres)
+-	spawn à des endroits spécifiques
+-	reuse d'une fenetre d'information dans la vue.
+-	comptabiliser toutes les ressources/joueurs et les afficher dans cette derniere.
+-	implémenter un bâtiment de storage d'âme récolté
+-	ajout d'un attribut banque d'ame pour le ferme d'ame 
+-	choix du reaper pour son retour (usine, porte)
+-	implémenter une mécanique qui décuple les ames apres un certain temps
+-	implémenter mécanique de temps en utilisant les variables de frame et de secondes déjà présentes 
+-	event de fin de partie pour qu'un joueur gagne
+
+CONCLUSIONS 
+	On peut conclure qu'avec une bonne communication, un peu de structure et de la coordination adéquate,
+	on peut travailler sur des fonctions connexes et très rapproché sans se piler sur les pieds. On a également
+	commencé par les implémentations supplémentaires et le nouveau code (au lieu de recycler le code actuel) et
+	cela nous a permis d'avancer rapidement après une bonne analyse du code du professeur.
+
+PROBLÈMES RENCONTRÉS
+	- filtre de couleur au changement de jour et nuit. On ne pourra pas faire cela de cette façon pour diverses raisons (YOAN)
+	- Syntaxe et lexique un peu décousue. problème réglé rapidement avec bonne communication.
+
+BONS COUPS
+	- Pratique d'avoir commencé par l'implémentation du nouveau code. L'analyse nous a plongé plus creux 
+	  dans la compréhension du code et après peu de temps, la démarche était efficace et rapide. 
+	- Communication
+	- Chronologie du code
+	- Pair programming
+	- problèmes rencontrés furent réglé rapidement entre les cours pour ne pas perdre de temps de labo
+
+ENTRE AUTRES!

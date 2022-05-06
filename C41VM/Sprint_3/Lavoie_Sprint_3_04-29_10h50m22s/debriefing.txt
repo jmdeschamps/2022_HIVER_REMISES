@@ -1,0 +1,44 @@
+debrinfing sprint 1
+
+Membres de l'équipe:
+	Fabien Juteau-Desjardins
+	Patrice Gallant
+	Raphaël Lavoie
+	Roberto Nightingale Castillo
+
+	
+Dans le premier sprint notre focus était de créer le framework de base que l'on va utiliser pour faire le jeu.
+en ce moment le jeu est remplie de dev art et d'information de debug.
+
+Notre équipe s'est organisée en pair programming avec Fabien et Patrice travaillant en pair et Rapahël et Roberto formant l'autre.
+Vers la fin du sprint, Roberto et Fabien se sont rencontrés durant les fins de semaines pour effectuer un nettoyage du code, afin de
+se débarasser du code pas utilisé et pour complèter la documentation du code, afin de pouvoir s'y référer pendant le reste du projet.
+
+Nous avons rencontré beaucoup plus de difficultés que prévu à bien relier la vue et les modifications que nous avons fait au modèle. 
+
+Nous avons aussi rencontrer un bug que l'on decrivrait comme mystique. Ce bug ce manifest des fois quand on essait de placer des batiment.
+Nous n'avons toujoure pas reusi a trouver ca cause, mais le message d'erreur indique toujours que c'est à cause d'une clé dupliquée qui est
+toujours l'id de l'ouvrier utilisé pour construire le batiment. Le bug est probablement au niveau des actions envoyées, mais nos essais de 
+débbugage n'ont pas encore porté fruit.
+
+
+
+Debriefing Sprint 2
+
+Durant le sprint 2 nous avons changer les pairs pour faire différent et changer la dynamique, Roberto/Fabien et Patrice/Raphael.
+Comparé au sprint 1 qui était axé sur le modeling et la framework, le sprint 2 à été focusé sur les mécaniques de jeu
+comme la génération d'or, les nouveaux batiments et les mécaniques de combat pour les soldats ainsi que l'intégration
+d'un pathfinding.
+
+Beaucoup moins de bugs ont été rencontrées que dans le sprint 1.
+
+Nous avons aussi séparée le code en plusieurs fichiers afin d'aider la navigation dans le code.
+
+
+
+Debriefing Sprint 3
+
+Dû à une bonne dynamique, les pairs sont restées les mêmes pour le sprint 3.
+Pour le dernier sprint nous avons mis le focus sur l'intégration des graphiques et terminer ce qui n'avait pas été fini
+dans le sprint 2. Étant d'avance, nous avons intégré plusieurs fonctions diverses afin d'améliorer le gameplay.
+Finalement, nous avons utilisé le reste de notre temps pour balancer le gameplay au meilleur de nos abilités.
