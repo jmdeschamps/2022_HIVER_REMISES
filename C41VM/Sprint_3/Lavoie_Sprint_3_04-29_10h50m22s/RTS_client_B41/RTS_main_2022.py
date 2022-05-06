@@ -12,7 +12,7 @@ from typing import List
 """
 Application client RTS, base sur le modele approximatif d'Age of Empire I
 
-module principal (main), essentiellement le controleur, dans l'architecture M-V-C
+module principal (main), essentiellement le controleur, dans l 'architecture M-V-C
 """
 
 
