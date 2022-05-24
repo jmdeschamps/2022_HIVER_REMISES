@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAZE</title>
+    <style>
+    body{
+        background-color: crimson;
+    }
+        .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: white;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 22px;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+ 
+}
+
+.SS{
+            animation: rotation 2s infinite linear;
+        }
+        @keyframes rotation{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(359deg)
+            }
+}
+.SS2{
+            animation: rotation2 2s infinite linear;
+        }
+        @keyframes rotation2{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(-359deg)
+            }
+}
+        
+</style>
+</head>
+<body>
+  <h1 style="text-align: center; background-color: fuchsia; background-size: auto;">LE LABYRINTH DE CARLOS</h1>
+    <div class="grid-container">
+        <div class="grid-item" style="border-right: white; border-top: white;"><a href="X.html">X</div></a>
+        <div class="grid-item" style="border-bottom: white;border-left: white; border-right: white;">2</div>
+        <div class="grid-item" style="background-color: white; border-left: white;">3</div>  
+        <div class="grid-item" style="border-right: white;border-bottom: white;">4</div>
+        <div class="grid-item" style="border-bottom: white; border-left: white; border-right: white;">5</div>
+        <div class="grid-item" style="background-color: white; border-left: white; border-bottom: white;">6</div>  
+        <div class="grid-item" style="background-color: white; border-bottom: white;">7</div>
+        <div class="grid-item" style="border-top: white;border-bottom: white;">8</div>
+        <div class="grid-item" style="background-color: white; border-right: white;"><p class="SS2" style="color: aquamarine;">?</p></div> 
+        <div class="grid-item" style="border-top: white; border-left: white;">10</div>
+        <div class="grid-item" style="border-bottom: white; border-top: white;">11</div>
+        <div class="grid-item" style="background-color: white; border-top: white;">12</div>
+        <div class="grid-item" style="border-right: white;border-bottom: white; border-top: white;"> 13</div>  
+        <div class="grid-item" style="border-top: white;border-left: white;border-right: white;">14</div>
+        <div class="grid-item" style="border-left: white;border-right: white;">15</div>
+        <div class="grid-item" style="border-left: white;border-right: white;border-bottom: white;">16</div>  
+        <div class="grid-item" style="border-left: white;border-right: white;border-top: white">17</div>
+        <div class="grid-item" style="border-left: white;border-bottom: white;">18</div>
+        <div class="grid-item" style="border-top: white;border-bottom: white;">19</div>
+        <div class="grid-item" style="border-right: white; border-bottom: white;" >20</div>
+        <div class="grid-item" style="border-bottom: white; border-left: white;">21</div>  
+        <div class="grid-item" style="border-top: white; border-right: white;">22</div>
+        <div class="grid-item" style="border-left: white;">23</div>
+        <div class="grid-item" style="border-top: white;border-bottom: white;">24</div>  
+        <div class="grid-item" style="border-top: white; border-bottom: white;">25</div>
+        <div class="grid-item" style="border-top: white;"><p class="SS" style="color:gold;">?</p></div>
+        <div class="grid-item" style="border-bottom: white; border-top: white;">27</div> 
+        <div class="grid-item" style="border-bottom: white;">28</div>
+        <div class="grid-item" style="border-right: white;"><p class="SS" style="color: darkslateblue;">?</p></div>
+        <div class="grid-item" style="border-top: white;border-left: white; border-bottom: white;">30</div>
+        <div class="grid-item" style="border-top: white; border-right: white;">31</div>  
+        <div class="grid-item" style="border-left: white; border-right: white;">32</div>
+        <div class="grid-item" style="border-left: white; border-right: white; border-top: white;">33</div>
+        <div class="grid-item" style="border-left: white; border-top: white;">34</div>  
+        <div class="grid-item" style="border-right: white;">35</div>
+        <div class="grid-item" style="border-top: white; border-left: white;">36</div>
+        
+      </div>
+      
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+    <head> 
+        <!-- trvail réalisé individuellement par irvan.n -->
+        <meta charset="utf-8"/>
+		<title> duo </title>
+        <style>
+
+            .flex-container 
+            {
+                display: flex;
+                flex-wrap: nowrap;
+                background-color: rgb(39, 7, 20);
+                justify-content: space-around;
+
+            }
+              
+            .flex-container > div 
+            {
+                background-color: #f1f1f1;
+                width: 21vh;
+                height: 19vh;
+                margin: 1.5vh;
+                text-align: center;
+                transition: 4s;
+                
+           }
+           
+           
+
+           .flex-container1
+            {
+                display: flex;
+                flex-wrap: nowrap;
+                background-color: rgb(39, 7, 20);
+                flex-direction: column;
+                justify-content: space-around;    
+                position: absolute;
+                height: 77vh;
+                
+            }
+            .flex-container1 > div 
+            {
+                background-color: #f1f1f1;
+                width: 21vh;
+                height: 19vh;
+                margin: 1.5vh;
+                text-align: center;
+                transition: 4s;
+           }
+           #un:hover
+           {
+               background-color: red;
+               transform: translate(80vh, 50vh) scale(8,4) rotateZ(720deg); 
+               opacity: 0;
+           }
+           #deux:hover
+           {
+               background-color: red;
+               transform: translate(0vh, 50vh) scale(0.6) rotatex(720deg); 
+           }
+           #trois:hover
+           {
+               background-color: red;
+               transform: translate(-55vh, 50vh) scale(8,4) rotateZ(-720deg); 
+           }
+           #quatre:hover
+           {
+               background-color: red;
+               transform: translate(105vh, 26vh) scale(8,4) ; 
+           }
+           #cinq:hover
+           {
+               background-color: red;
+               transform: translate(103vh, 0vh) scale(8,4) rotateY(720deg); 
+           }
+           #six:hover
+           {
+               background-color: red;
+               transform: translate(103vh, -26vh) scale(8,4) rotateZ(-720deg); 
+           }
+
+    </style>
+    </head>
+
+
+    <body>
+
+        <div class="flex-container">
+
+            <div id="un"><img src="raisin.jpg" style="width: 100%; height: 100%;"></div>
+            <div id="deux"><img src="banane.webp" style="width: 100%; height: 100%;"></div>
+            <div id="trois"><img src="mangue.jpg" style="width: 100%; height: 100%;"></div>  
+
+        </div>
+
+        <div class="flex-container1">
+
+            <div id="quatre"><img src="peche.jpg" style="width: 100%; height: 100%;"></div>
+            <div id="cinq"><img src="pomme.webp" style="width: 100%; height: 100%;"></div>
+            <div id="six"><img src="index.jpg" style="width: 100%; height: 100%;"></div>  
+        </div>
+
+    </body>
+ </html>
+    
+    
+        

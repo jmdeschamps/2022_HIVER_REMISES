@@ -1,0 +1,160 @@
+/* Julien-Carl Dubois-Lafaille */
+/* Eric El-Chabab */
+
+#Sous-titre {
+    background-color: rgba(255, 0, 0, 0.42);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.918);
+    font-size: 18px;
+    margin-top: 3px;
+    border-radius: 100px; /*arrondir les coins*/
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+img {
+    position: relative;
+    border-radius: 5%;
+    max-height:25vh;
+    max-width: 10vw;
+    transition: width 5s;
+}
+
+        /*flexbox*/
+.flex-horizontal {
+    display: flex;
+    flex-wrap: nowrap;
+    height:auto;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:rgba(0, 139, 139, 0.438);
+    border-radius: 3vw;
+}
+
+.flex-horizontal > div {
+    min-height: fit-content;
+    min-width: fit-content;
+    margin: .3vh;
+    text-align: center;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-wrap: nowrap;
+	position: absolute;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: .5vh;
+    height: calc(90vh - 150px);
+    justify-content: space-evenly;
+    background-color:rgba(2, 0, 139, 0.432);
+    border-radius: 3vh;
+}
+
+.flex-vertical > div {
+    min-height: fit-content;
+    min-width: fit-content;
+    max-height:25vh;
+    margin: .3vh;
+    text-align: center;
+}
+
+/*photos horizontales*/
+.HBostrom:hover > #img1 {
+    animation-name: animation-img1;
+    z-index: 2;
+    position:relative;
+    opacity: 100%;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}     
+@keyframes animation-img1 {
+    0% {left: 0vw; top: 10vh; transform: scaleX(1.0) scaleY(1.0);}
+    25% {left: 15vw; top: 20vh; transform: scaleX(5.0) scaleY(5.0);}
+    50% {left: 50vw; top: 35vh; transform: scaleX(2.0) scaleY(2.0);}
+    75% {left: 30vw; top: 30vh; transform: scaleX(4.0) scaleY(4.0);}
+    100% {left: 40vw; top: 40vh; transform: scaleX(3.0) scaleY(3.0);}
+}
+
+/*animation HRussell */
+.HRussell:hover > #img2{
+    position: relative;
+    opacity: 100%;
+    animation: animationHR 6s 1s forwards;
+}
+
+@keyframes animationHR {
+    0%  {top: 0vh;  transform: rotatey(0deg);}
+    100%{top: 50vh; transform: rotatey(180deg);}
+}
+
+.Objet1 {
+    background-color: red;
+    height: 0vh;
+    width: 15vh;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    top: 50%;
+    transform:translateY(-50%);
+    transition: all 3s ease-out;
+}
+
+.HWittgenstein:hover > .Objet1 {
+    background: rgb(185, 54, 185);
+    height: 15vh;
+    display:block;
+    border-radius: 50%;
+}
+
+/* photos verticales */
+.VBostrom:hover > #img4 {
+    animation-name: animation-img4;
+    z-index: 2;
+    position:relative;
+    opacity: 100%;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}     
+@keyframes animation-img4 {
+    0% {left: 0vw; transform: skew(0);}
+    10% {left: 15vw; transform: skew(20deg, 10deg);}
+    20% {left: 20vw; transform: rotateY(60deg) skew(0deg, 20deg);}
+    30% {left: 25vw; transform: skew(0deg, 0deg);}
+    40% {left: 30vw; transform: skew(0deg, 20deg);}
+    50% {left: 35vw; transform: skew(20deg, 10deg);}
+    60% {left: 40vw; transform: rotateY(60deg) skew(0deg, 20deg);}
+    70% {left: 45vw; transform: skew(0deg, 0deg);}
+    80% {left: 50vw; transform: skew(0deg, 20deg);}
+    90% {left: 55vw; transform: skew(20deg, 10deg);}
+    100% {left: 60vw; transform: rotateY(300deg) rotateX(300deg);}
+}
+
+.VRussell:hover ~ .VWittgenstein > #img6 {
+    background: blue;
+    z-index: 1;
+    animation: spin4 1s infinite;
+    animation-delay: 0.4s;
+}
+@keyframes spin4 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+ }
+
+
+.VWittgenstein:hover > #img6 {
+    animation-name: cocain;
+    z-index: 2;
+    position:relative;
+    opacity: 0%;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}     
+@keyframes cocain {
+    0% {opacity: 0%; left: 0vw; bottom: 0vh; transform: scaleX(1.0) scaleY(1.0);}
+    100% {opacity: 100%; left: 50vw; bottom: 20vh; transform: scaleX(3.7) scaleY(3.7);}
+}

@@ -1,0 +1,99 @@
+
+        .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+  max-height: 200px;
+}
+.flex-container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+  flex-direction: column;
+  width:20%;
+  line-height:5%;
+  max-height:50%;
+
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  line-height: 100%;
+  font-size: 30px;
+  max-height: 200px;
+  }
+
+  .flex-container2 > div {
+  background-color: white;
+  width: 75%;
+  height:10%;
+  margin: 0px;
+  text-align: center;
+  font-size: 30px;
+
+  }
+
+  .flex-container3{
+   float:right;
+   display: flex;
+   width:78%;
+ line-height:3650%;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  }
+
+ .flex-container3 > div {
+
+  background-color: #f1f1f1;
+  width: 100%;
+  margin: 1%;
+  text-align: center;
+  line-height: auto;
+ }
+.image{
+width:100%;
+height:100%;
+display: block;
+}
+.images{
+max-width:100%;
+height:100%;
+display: block;
+}
+
+ .image1:hover{
+    width: 100%;
+    height: 100%;
+    transform: translate(110%, 190%) skewX(40deg);
+ }
+ .image2:hover{
+    width: 100%;
+    height: 100%;
+    transform: translate(0%, 190%) rotateY(180deg);
+ }
+ .image3:hover{
+    width: 100%;
+    height: 100%;
+    transform: translate(-125%, 190%) rotate(180deg);
+ }
+
+
+
+ .image4:hover{
+    width: 100%;
+    line-height: 100%;
+    transform: translate(420%, 150%) rotateZ(90deg);
+ }
+ .image5:hover{
+    width: 100%;
+    height: 100%;
+    transform: translate(320%, 0%) scaleX(3) scaleY(3) ;
+ }
+ .image6:hover{
+    width: 100%;
+    height: 100%;
+    transform: translate(220%, -100%) matrix(1, 2, -1, 1, 150, 0);
+ }

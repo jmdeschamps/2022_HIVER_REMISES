@@ -1,0 +1,125 @@
+    .haut{
+    position: absolute;
+    top:0%;
+    left:50%;
+    height: 20%;
+    }
+
+    .droite{
+    position: absolute;
+    top:50%;
+    left:95%;
+    height: 20%;
+    }
+
+    .gauche{
+    position: absolute;
+    top:50%;
+    left:0%;
+    height: 20%;
+    }
+
+    .bas{
+    position: absolute;
+    bottom:0%;
+    left:50%;
+    height: 5%;
+    }
+
+    .message{
+    position: absolute;
+    top: 45%;
+    left:40%;
+    height: 20%;
+    animation: transitionIn 1.5s;
+    }    
+    .messageCulDeSac{
+        position: absolute;
+        top: 45%;
+        left:40%;
+        height: 20%;
+        animation: culdesac 3s;
+        }  
+    .messageVictoire{
+    position: absolute;
+    top: 45%;
+    left:40%;
+    height: 20%;
+    animation: victoire 3s forwards;
+    }    
+
+.container {
+    background-color: rgb(110, 189, 98);
+    color: rgb(9, 41, 109);
+}
+
+.culdesac {
+    background-color: rgb(187, 23, 23);
+    color: rgb(249, 250, 251);
+}
+
+.victoire {
+    background-color: rgb(0, 27, 199);
+    color: rgb(255, 0, 238);
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+@keyframes victoire {
+    0%   {
+        rotate:0deg;
+        scale: 1
+    }
+    25%  {
+        rotate:0deg;
+        scale: 2;
+    }
+    100%  {
+        rotate:360deg;
+        scale: 3.5;
+    }
+}
+
+@keyframes culdesac {
+   0%{
+       transform: translate(0);
+   }
+   20%,
+   40%,
+   60%,
+   80%{
+        transform: translate(.8em);
+   }
+   10%,
+   30%,
+   50%{
+    transform: translate(-.2em);
+    }
+    70%,
+    100%{
+        transform: translate(0em);
+   }
+}
+/* 
+0%   {
+    ;
+    scale: 1
+}
+25%  {
+    rotate:0deg;
+    scale: 2;
+}
+100%  {
+    rotate:360deg;
+    scale: 3.5;
+} */

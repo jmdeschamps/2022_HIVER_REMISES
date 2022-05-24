@@ -1,0 +1,55 @@
+body {
+  background-color: Black;
+}
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 46%;
+  font-size: 18px;
+}
+
+.topright {
+    position: absolute;
+    bottom: -450px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: -450px;
+    left: 5px;
+    font-size: 18px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: -900px;
+    right: 950px;
+    font-size: 18px;
+}
+
+.center {
+  position: absolute;
+  top: 450px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+a:link, a:visited {
+  background-color: Black;
+  color: Black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: Grey;
+}

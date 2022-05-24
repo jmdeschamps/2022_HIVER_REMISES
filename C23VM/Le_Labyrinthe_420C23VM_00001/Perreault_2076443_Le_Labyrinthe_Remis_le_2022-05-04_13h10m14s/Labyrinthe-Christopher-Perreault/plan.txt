@@ -1,0 +1,7 @@
+   A B C D E F
+1  V V V x Y V
+2  x V V V x V
+3  V V x x V V
+4  x V V V V x
+5  V V x x V V
+6  x V V V V x

@@ -1,0 +1,46 @@
+#haut {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 20%;
+}
+#bas {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    height: 20%;
+}
+#droite {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    height: 20%;
+}
+#gauche {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    height: 20%;
+}
+#centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20%;
+}
+#halfway_done {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    height: 40%;
+    color: red;
+    font-size: large;
+}
+#almost_done {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    height: 50%;
+    color:chocolate;
+    font-size: xx-large;
+}

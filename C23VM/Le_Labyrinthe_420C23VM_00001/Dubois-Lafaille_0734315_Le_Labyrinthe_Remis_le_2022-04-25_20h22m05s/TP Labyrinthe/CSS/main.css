@@ -1,0 +1,502 @@
+body{
+    margin-left:0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+div{
+    display: flex;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(236, 214, 9, 0.932);
+    border-radius: 15%;
+    justify-content: center;
+    align-items: center;
+    font-size:15pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3px;
+}
+
+/*A1*/
+#a1gauche{
+    font-size:1vmax;
+    text-align: center;
+    padding:1vw;
+    width: fit-content;
+    height: 160px;
+    left:0;
+    top: 50%;
+    transform:translateY(-50%);
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+
+/*B3*/
+#b3centre {
+    width: auto;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#b3cache{
+    display:block;
+    color:rgba(202, 44, 181, 0.952);
+    width: auto;
+    height: fit-content;
+    left: 50%;
+    top: 60%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation-name: opaque;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+}
+
+@keyframes opaque {
+	0%      { opacity: 0; }
+	100%    { opacity: 1; }
+}
+
+/*B6*/
+#b6haut{
+    font-size:1vmax;
+    width:250px;
+    left: 50%;
+    top:0;
+    transform:translateX(-50%);
+    clip-path: polygon(0% 40%, 50% 0%, 100% 40%, 80% 40%, 80% 100%, 20% 100%, 20% 40%);
+}
+
+/*Case C4 */
+#gauchei{
+    right:0%;
+    top:50%;
+    transform:translateY(-50%);
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+
+#hauti{
+    left: 50%;
+    bottom:0;
+    transform:translateX(-50%);
+    clip-path: polygon(0% 40%, 50% 0%, 100% 40%, 80% 40%, 80% 100%, 20% 100%, 20% 40%);
+}
+
+#droitei{
+    left:0;
+    top: 50%;
+    transform:translateY(-50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+#basi{
+    left: 50%;
+    top:0;
+    transform:translateX(-50%);
+    clip-path: polygon(20% 0%, 80% 0%, 80% 60%, 100% 60%, 50% 100%, 0% 60%, 20% 60%);
+}
+
+/* Case E6 */
+#e6gauche {
+    position: absolute;
+    right:0%;
+    top:50%;
+    transform:translateY(-50%);
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    animation-name: e6gauche;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes e6gauche {
+    0%   {left:2vw; top:5vh;}
+    25%  {left:90vw; top:5vh;}
+    50%  {left:90vw; top:95vh;}
+    75%  {left:2vw; top:95vh;}
+    100% {left:2vw; top:5vh;}
+}
+#e6haut {
+    position: absolute;
+    left: 50%;
+    bottom:0;
+    transform:translateX(-50%);
+    clip-path: polygon(0% 40%, 50% 0%, 100% 40%, 80% 40%, 80% 100%, 20% 100%, 20% 40%);
+    animation-name: e6haut;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes e6haut {
+    0%   {left:95vw; top:5vh;}
+    25%  {left:95vw; top:90vh;}
+    50%  {left:5vw; top:90vh;}
+    75%  {left:5vw; top:5vh;}
+    100% {left:95vw; top:5vh;}
+}
+#e6droite {
+    position: absolute;
+    left:0;
+    top: 50%;
+    transform:translateY(-50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation-name: e6droite;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes e6droite {
+    0%   {left:90vw; top:95vh;}
+    25%  {left:2vw; top:95vh;}
+    50%  {left:2vw; top:5vh;}
+    75%  {left:90vw; top:5vh;}
+    100% {left:90vw; top:95vh;}
+}
+#e6bas {
+    position: absolute;
+    left: 50%;
+    top:0;
+    transform:translateX(-50%);
+    clip-path: polygon(20% 0%, 80% 0%, 80% 60%, 100% 60%, 50% 100%, 0% 60%, 20% 60%);
+    animation-name: e6bas;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes e6bas {
+    0%   {left:5vw; top:90vh;}
+    25%  {left:5vw; top:5vh;}
+    50%  {left:95vw; top:5vh;}
+    75%  {left:95vw; top:90vh;}
+    100% {left:5vw; top:90vh;}
+}
+
+/*cubes cardinaux de couleurs E2 et F2*/
+#Ouest{
+    height:30vh;
+    width:1.3vw;
+    left:0;
+    top: 50%;
+    transform:translateY(-50%);
+    background-color: dimgray;
+}
+
+#Nord{
+    height:2vh;
+    width: 15vw;
+    left: 50%;
+    top:0;
+    transform:translateX(-50%);
+    background-color: blue;
+}
+
+#Est{
+    height:30vh;
+    width:1.3vw;
+    right:0%;
+    top:50%;
+    transform:translateY(-50%);
+    background-color: darkgreen;
+}
+
+#Sud{
+    height:2vh;
+    width: 15vw;
+    left: 50%;
+    bottom:0;
+    transform:translateX(-50%);
+    background-color: crimson;
+}
+
+.monospace{
+    font-family: monospace;
+}
+
+#e2f2centre {
+    width: auto;
+    left: 50%;
+    top: 10%;
+    text-align: center;
+    transform: translate(-50%);
+}
+
+/* Cercles E2*/
+#E2gaucheINTERNE {
+     width: auto;
+     left:50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+     animation: E2INGAUCHE 15s linear infinite;
+     background-color: dimgray;
+}
+@keyframes E2INGAUCHE {
+    from { transform: rotate(180deg) translateX(80px); }
+    to   { transform: rotate(540deg) translateX(80px); }
+}
+
+#E2hautINTERNE {
+    width: auto;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: E2INHAUT 15s linear infinite;
+    background-color: blue;
+}
+@keyframes E2INHAUT {
+   from { transform: rotate(270deg) translateX(80px); }
+   to   { transform: rotate(630deg) translateX(80px); }
+}
+
+#E2droiteINTERNE {
+    width: auto;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: E2INDROITE 15s linear infinite;
+    background-color: darkgreen;
+}
+@keyframes E2INDROITE {
+   from { transform: rotate(0deg)   translateX(80px); }
+   to   { transform: rotate(360deg) translateX(80px); }
+}
+
+#E2basINTERNE {
+   width: auto;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+   animation: E2INBAS 15s linear infinite;
+   background-color: crimson;
+}
+@keyframes E2INBAS {
+  from { transform: rotate(90deg)   translateX(80px); }
+  to   { transform: rotate(450deg)  translateX(80px); }
+}
+
+/* cercle antihoraire E2*/
+#E2gaucheEXTERNE {
+    width: auto;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: E2EXGAUCHE 15s linear infinite;
+    background-color: dimgray;
+}
+@keyframes E2EXGAUCHE {
+   from { transform: rotate(540deg) translateX(160px); }
+   to   { transform: rotate(180deg) translateX(160px); }
+}
+
+#E2hautEXTERNE {
+    width: auto;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: E2EXHAUT 15s linear infinite;
+    background-color: blue;
+}
+@keyframes E2EXHAUT {
+   from { transform: rotate(630deg) translateX(160px); }
+   to   { transform: rotate(270deg) translateX(160px); }
+}
+
+#E2droiteEXTERNE {
+   width: auto;
+   left:50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+   animation: E2EXDROITE 15s linear infinite;
+   background-color: darkgreen;
+}
+@keyframes E2EXDROITE {
+  from { transform: rotate(360deg) translateX(160px); }
+  to   { transform: rotate(0deg)   translateX(160px); }
+}
+
+#E2basEXTERNE {
+  width: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+  animation: E2EXBAS 15s linear infinite;
+  background-color: crimson;
+}
+@keyframes E2EXBAS {
+ from { transform: rotate(450deg)  translateX(160px); }
+ to   { transform: rotate(90deg)   translateX(160px); }
+}
+
+/* Cercles F2 */
+#F2gaucheINTERNE {
+    width: auto;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: F2INGAUCHE 15s linear infinite;
+    background-color: dimgray;
+}
+@keyframes F2INGAUCHE {
+    from { transform: rotate(540deg) translateX(80px); }
+    to   { transform: rotate(180deg) translateX(80px); }
+}
+
+#F2hautINTERNE {
+    width: auto;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: F2INHAUT 15s linear infinite;
+    background-color: blue;
+}
+@keyframes F2INHAUT {
+   from { transform: rotate(630deg) translateX(80px); }
+   to   { transform: rotate(270deg) translateX(80px); }
+}
+
+#F2droiteINTERNE {
+    width: auto;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: F2INDROITE 15s linear infinite;
+    background-color: darkgreen;
+}
+@keyframes F2INDROITE {
+   from { transform: rotate(360deg)   translateX(80px); }
+   to   { transform: rotate(0deg) translateX(80px); }
+}
+
+#F2basINTERNE {
+   width: auto;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+   animation: F2INBAS 15s linear infinite;
+   background-color: crimson;
+}
+@keyframes F2INBAS {
+  from { transform: rotate(450deg)   translateX(80px); }
+  to   { transform: rotate(90deg)  translateX(80px); }
+}
+
+/* cercle antihoraire F2*/
+#F2gaucheEXTERNE {
+    width: auto;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: F2EXGAUCHE 15s linear infinite;
+    background-color: dimgray;
+}
+@keyframes F2EXGAUCHE {
+   from { transform: rotate(180deg) translateX(160px); }
+   to   { transform: rotate(540deg) translateX(160px); }
+}
+
+#F2hautEXTERNE {
+   width: auto;
+   left:50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+   animation: F2EXHAUT 15s linear infinite;
+   background-color: blue;
+}
+@keyframes F2EXHAUT {
+  from { transform: rotate(270deg) translateX(160px); }
+  to   { transform: rotate(630deg) translateX(160px); }
+}
+
+#F2droiteEXTERNE {
+    width: auto;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    animation: F2EXDROITE 15s linear infinite;
+    background-color: darkgreen;
+ }
+ @keyframes F2EXDROITE {
+   from { transform: rotate(0deg) translateX(160px); }
+   to   { transform: rotate(360deg)   translateX(160px); }
+ }
+
+#F2basEXTERNE {
+  width: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+  animation: F2EXBAS 15s linear infinite;
+  background-color: crimson;
+}
+@keyframes F2EXBAS {
+ from { transform: rotate(90deg)  translateX(160px); }
+ to   { transform: rotate(450deg)   translateX(160px); }
+}
+
+
+/*GÉNÉRAL*/
+#gauche{
+    left:0;
+    top: 50%;
+    transform:translateY(-50%);
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+
+#haut{
+    left: 50%;
+    top:0;
+    transform:translateX(-50%);
+    clip-path: polygon(0% 40%, 50% 0%, 100% 40%, 80% 40%, 80% 100%, 20% 100%, 20% 40%);
+}
+
+#droite{
+    right:0%;
+    top:50%;
+    transform:translateY(-50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+#bas{
+    left: 50%;
+    bottom:0;
+    transform:translateX(-50%);
+    clip-path: polygon(20% 0%, 80% 0%, 80% 60%, 100% 60%, 50% 100%, 0% 60%, 20% 60%);
+}
+
+#centre {
+    width: auto;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#cache{
+    position: absolute;
+    height: 30px;
+    display:none;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+}
+
+#centre:hover + #cache{
+    display:block;
+    color:rgba(202, 44, 181, 0.952)
+}

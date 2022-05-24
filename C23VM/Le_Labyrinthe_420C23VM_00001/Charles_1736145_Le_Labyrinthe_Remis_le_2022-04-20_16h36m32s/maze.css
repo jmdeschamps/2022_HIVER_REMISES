@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(45, 148, 36, 0.445);
+}
+.haut{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+}
+.droite {
+    position: absolute;
+    top: 40%;
+    left: 88.1%;
+}
+.bas {
+    position: absolute;
+    top: 89.3%;
+    left: 40%;
+}
+.gauche {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+button {
+    width: 200px;
+    height: 100px;
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size:xx-large;
+}

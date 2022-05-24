@@ -1,0 +1,49 @@
+#haut{
+        position:absolute;
+        left:50%;
+        }
+        #gauche{
+         position:absolute;
+        left:5%;
+        top:50%;
+        }
+        #droit{
+        position:absolute;
+        left:95%;
+        bottom:50%;
+        }
+        #bas{
+        position:absolute;
+        left:50%;
+        bottom:5%;
+        }
+        #centre{
+        position:absolute;
+        left:50%;
+        bottom:50%;
+        }
+        a:hover{
+
+        }
+        @keyframes fin {
+  from {background-color: red;}
+  to {background-color: yellow;}
+  }
+  div.background {
+  position:absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  line-height: 5700%;
+  background-color: red;
+  animation-name: fin;
+  animation-duration: 4s;
+}
+div.milieu{
+position:relative;
+text-align:center;
+width:30%;
+line-height:3000%;
+background-color: white;
+
+}

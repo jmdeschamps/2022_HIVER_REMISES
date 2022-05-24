@@ -1,0 +1,3 @@
+Le labyrinthe commence à la case A1.
+
+Le jeu est adapté pour Firefox!

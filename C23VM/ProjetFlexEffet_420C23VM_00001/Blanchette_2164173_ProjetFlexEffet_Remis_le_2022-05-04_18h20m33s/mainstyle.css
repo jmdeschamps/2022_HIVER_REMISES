@@ -1,0 +1,42 @@
+/*Ludwig Blanchette, Abigail Fournier*/
+
+body {
+    overflow: hidden;
+}
+
+[class|=flex] {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    margin-bottom: 1vh;
+}
+
+[class|=flex] div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    min-height: 0;
+}
+
+[class|=flex] img {
+    display: flex;
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.flex-h {
+    flex-direction: row;
+    height: 20vh;
+}
+
+.flex-v {
+    flex-direction: column;
+    height: 76vh;
+    width: 20vw;
+}
+
+#Image6 img {
+    position: absolute;
+}

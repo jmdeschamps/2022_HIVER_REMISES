@@ -1,0 +1,41 @@
+div{
+    width: 10vw;
+    height: 10vw;
+    background-color: gray;
+    position:absolute;
+}
+#up{
+    top: 0;
+    right: 45vw;
+}
+#down{
+    bottom: 0;
+    right: 45vw;
+}
+#left{
+    left: 0;
+    top: 45vh;
+}
+#right{
+    right: 0;
+    top: 45vh;
+}
+#lab-in{
+    width: 20vw;
+    height: 20vw;
+    background-color: green;
+    top: 35vh;
+    left: 40vw;
+}
+
+#lab-out{
+    width: 20vw;
+    height: 20vw;
+    background-color: red;
+    top: 35vh;
+    left: 40vw;
+}
+h1{
+    text-align: center;
+    color: white;
+}

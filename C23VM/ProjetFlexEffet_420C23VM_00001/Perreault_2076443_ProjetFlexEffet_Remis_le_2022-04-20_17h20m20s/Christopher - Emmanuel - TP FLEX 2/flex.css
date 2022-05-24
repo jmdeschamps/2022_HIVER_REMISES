@@ -1,0 +1,134 @@
+/* Body */
+.menuhaut
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 98vw;
+    height: 20vh;
+    border-style: double;
+    border-color: aliceblue;
+    margin: auto;
+}
+.menucote
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    flex-direction: column;
+    width: 25vh;
+    height: 78vh;
+    border-style: double;
+    border-color: aliceblue;
+    margin-right: auto;
+    margin-left: 0.9%;
+}
+.item
+{
+    margin: auto;
+    align-items: center;
+    justify-items:center;
+}
+body, html{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: grey;
+}
+
+.menucote > .item > img{
+    max-width: 22vh;
+    max-height: 23vh;
+}
+
+.menuhaut > .item > img{
+    max-height: 17vh;
+    max-width: 30vh;
+}
+
+/* Christopher */
+
+#id4:hover{
+    animation-name: turnandturn;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes turnandturn{
+    10%{transform: translatex(20vw) rotate(60deg) scale(1.5,1.5);;}
+    25%{transform: translatex(50vw) rotate(120deg) scale(1.5,1.5);}
+    40%{transform: translatex(80vw) rotate(180deg) scale(1.5,1.5);}
+    55%{transform: translatex(80vw) translatey(50vh) rotate(240deg) scale(1.5,1.5);}
+    70%{transform: translatex(50vw) translatey(50vh) rotate(300deg) scale(1.5,1.5);}
+    85%{transform: translatex(20vw) translatey(50vh) rotate(360deg) scale(1.5,1.5);}
+}
+
+#id5:hover{
+    animation-name: moveandfill;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveandfill{
+    5%{transform: translateX(50vw);}
+    25%{transform: translateX(50vw) scaleY(5);}
+    45%{transform: translateX(50vw) scaleX(8);}
+    65%{transform: translateX(50vw);}
+    80%{transform: translateX(50vw) scaleX(8) scaleY(5);}
+    95%{transform: scale(0,0);}
+}
+#id6:hover{
+    animation-name: poppin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes poppin{
+    05%{transform: translateX(50vw) translateY(-5vw) scale(4)}
+    15%{transform: translateX(30vw) translateY(-20vw) scale(0)}
+    25%{transform: translateX(30vw) translateY(-20vw) scale(2)}
+    35%{transform: translateX(70vw) translateY(5vw) scale(0)}
+    45%{transform: translateX(70vw) translateY(5vw) scale(0.8)}
+    55%{transform: translateX(50vw) translateY(-5vw) scale(0)}
+    65%{transform: translateX(50vw) scale(8);}
+    90%{transform: translateX(50vw) scale(0);}
+}
+
+/* Emmanuel */
+#id1, #id2, #id3{
+    transition-property:all;
+    transition-duration: 2s;   
+}
+
+#id1:hover{
+    animation: myfirst 5s;
+}
+#id2:hover{
+    animation: mysec 5s;
+}
+#id3:hover{
+    transform: scale(2,2) translate(-15vw, 20vh) skew(360deg);
+}
+
+@keyframes myfirst {
+    0%   {transition-duration: 2s;}
+    25%  {transform: scale(2,2) translate(20vw, 20vh);}
+    50%  {transform: scale(2,5) translate(20vw, 10vh) rotate(180deg);}
+    75%  {transform: scale(2,2) translate(20vw, 20vh) rotate(180deg);}
+    100% {transform: scale(2,2) translate(0vw, 0vh) rotate(360deg);}
+}
+
+@keyframes mysec {
+    0%   {transition-duration: 2s;}
+    25%  {transform: scale(0.5,0.5) translate(0vw, 100vh)}
+    50%  {transform: scale(3,3) translate(0vw, 0vh);}
+    75%  {transform: scale(0.2,0.2) translate(0vw, 100vh);}
+    100% {transform: scale(1,1) translate(0vw, 0vh) rotate(360deg);}
+}
+
+@keyframes mythird {
+    0%   {transition-duration: 2s;}
+    25%  {transform: scale(2,2) translate(20vw, 20vh);}
+    50%  {transform: scale(2,5) translate(20vw, 10vh) rotate(180deg);}
+    75%  {transform: scale(2,2) translate(20vw, 20vh) rotate(180deg);}
+    100% {transform: scale(2,2) translate(0vw, 0vh) rotate(360deg);}
+}

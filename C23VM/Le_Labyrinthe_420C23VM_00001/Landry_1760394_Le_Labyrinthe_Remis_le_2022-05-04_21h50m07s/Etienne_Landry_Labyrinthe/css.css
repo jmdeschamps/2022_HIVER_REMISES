@@ -1,0 +1,54 @@
+img{
+    width: 150px;
+    height: 150px;
+}
+
+#up{
+    display: flex;
+    position: relative;
+    object-position: center;
+
+    margin-left: 45%;
+}
+
+#left{
+    display: flex;
+    position: relative;
+    margin-top: 10%;
+}
+
+#right{
+    display: flex;
+    position: relative;
+    margin-left: 40%;
+}
+
+#down{
+    display: flex;
+    position: relative;
+    margin-left: 45%;
+    margin-top: 12%;
+
+}
+
+#indice{
+    display: block;
+    margin-left: 35% ;
+  
+}
+
+#cacher{
+    display: none;
+    text-align: center;
+    
+}
+
+#indice:hover + #cacher{
+    display: block;
+}
+
+#victoire{
+    background: url(/image/victoire.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}

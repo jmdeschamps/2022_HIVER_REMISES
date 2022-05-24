@@ -1,0 +1,80 @@
+#haut{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 20%;
+}
+#bas{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    height: 10%;
+}
+#gauche{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    height: 20%;
+}
+#droite{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    height: 20%;
+}
+#centre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20%;
+}
+#victoire:active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: victoire;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+    transform: scale(5);
+}
+@keyframes victoire{
+    0%{left: 0px; top: 0px;};
+    100%{left: 1000px; top: 500px;};
+    
+}
+#indice:active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: indice;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+    transform: scale(5);
+
+}
+@keyframes indice{
+    0%{left: 0px; top: 0px;}
+    100%{left: 200px;top: 800px;}
+
+}
+#indice2:active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: indice2;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+    transform: scale(5);
+
+}
+@keyframes indice2{
+    0%{left: 0px; top: 0px;}
+    100%{left: 1500px;top: 800px;}
+
+}

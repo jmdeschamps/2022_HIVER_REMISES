@@ -1,0 +1,196 @@
+#top{
+    border: solid;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: rgb(92, 233, 37);
+}
+#bottom{
+    border: solid;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: rgb(92, 233, 37);
+}
+#left{
+    border: solid;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    background-color: rgb(92, 233, 37);
+}
+#right{
+    border: solid;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    background-color: rgb(92, 233, 37);
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#location{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 60%);
+    border: solid;
+    opacity: 0%;
+}
+
+.event{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 60%);
+    font-family: fantasy;
+}
+
+#secret{
+    opacity: 0;
+    border: solid brown;
+    background-color: beige;
+    width: 10vw;
+    height: 10vh;
+}
+
+#recommencer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 200%);
+}
+#secret:hover{
+    opacity: 100%;
+}
+
+#lienCarte{
+    animation: opacity 100000s;
+    animation-play-state:paused;
+}
+
+@keyframes opacity {
+    0% {opacity: 0;}
+    0.000001%{opacity: 1;}
+    30%{opacity: 1;}
+    60%{opacity: 1;}
+    100% {opacity: 1;}
+    }
+
+#secret:hover + #lienCarte{
+    animation-play-state:running;
+}
+
+#center:hover + #location{
+    opacity: 100%;
+}
+.caseVerte{
+    background-color: green;
+    width: 16.66%;
+    height: 100%;
+    border: solid;
+}
+.caseRouge{
+    background-color: red;
+    width: 16.66%;
+    height: 100%;
+    border: solid;
+}
+.caseOr{
+    background-color: gold;
+    width: 16.5%;
+    height: 100%;
+    border: solid;
+}
+.caseNoire{
+    background-color: black;
+    width: 16.5%;
+    height: 100%;
+    border: solid;
+}
+.caseBleu{
+    background-color: blue;
+    width: 16.5%;
+    height: 100%;
+    border: solid;
+}.caseMauve{
+    background-color: purple;
+    width: 16.5%;
+    height: 100%;
+    border: solid;
+}
+.flex-container{
+    background-color: green;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 16vh;
+    width: 100vw;
+    border: solid;
+}
+#Boss{
+    transform: translate(60vw, 20vh);
+}
+
+#Arme{
+    width: 2.5vw;
+    height: 5vh;
+    left: 2%;
+    top: 90%;
+    position: absolute;
+}
+#Choix1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50% , 300%);
+}
+#Choix2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100% , 300%);
+}
+
+#ArmePrendre{
+    animation: visibilité 100000s;
+    animation-play-state:paused;
+    left: 2%;
+    top: 95%;
+    position: absolute;
+}
+
+@keyframes visibilité {
+    0% {opacity: 0;}
+    0.000001%{opacity: 1;}
+    30%{opacity: 1;}
+    60%{opacity: 1;}
+    100% {opacity: 1;}
+    }
+
+#Arme:hover + #ArmePrendre{
+     animation-play-state:running;
+}
+
+#Trader{
+    transform: translate(60vw, 20vh);
+}
+
+#Recompense{
+    width: 10vw;
+    height: 15vh;
+    left: 2%;
+    top: 85%;
+    position: absolute;
+    animation: visibilité 100000s;
+    animation-play-state:paused;
+}
+#Recompense:hover{
+    animation-play-state:running;
+}

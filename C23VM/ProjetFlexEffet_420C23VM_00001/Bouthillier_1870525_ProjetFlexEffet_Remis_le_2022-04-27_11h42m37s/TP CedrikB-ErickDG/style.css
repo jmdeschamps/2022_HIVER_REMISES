@@ -1,0 +1,166 @@
+.flex-container-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 150px;
+    background-color: DodgerBlue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .flex-container-1>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 15px;
+    
+  }
+  .flex-container-1>div>img{
+     width: 100px;
+     height: 100px; 
+     object-fit:cover ;
+  }
+
+  .flex-container-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    width: 150px;
+    height: calc(100vh - 175px);
+    background-color: rgb(3, 228, 104);
+    margin-left: 2.5%;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .flex-container-2>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 15px;
+    
+  }
+  .flex-container-2>div>img{
+    width: 100px;
+    height: 100px; 
+    object-fit:cover ;
+ }
+
+  body {
+    height: 100%;
+  }
+
+  #photo1:hover{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: dropdown;
+    animation-duration:8s;
+    animation-fill-mode: forwards;
+    transform: scale(10);
+  }
+  @keyframes dropdown{
+    0%   {left:0px; top:0px;}
+    100% {left:500px; top:400px;}
+  }
+  #photo2:active{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: photo2;
+    animation-duration:8s;
+    animation-fill-mode: forwards;
+    transform: scale(5);
+  }
+  @keyframes photo2{
+    0%   {left:0px; top:0px;}
+    25%   {left:600px; top:400px;}
+    50%   {right:2500px;top:400px;}
+    75%   {right:0px; top:400px;}
+    100% {right:0px; top:400px;}
+  }
+  #photo3:active{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: photo3;
+    animation-duration:8s;
+    animation-fill-mode: forwards;
+    transform: scale(3);
+  }
+  @keyframes photo3{
+    0%   {rotate:360deg;right:600px; top:400px;scale: 1}
+    20%  {rotate:720deg;right:600px;top:400px;scale: 2}
+    40%  {rotate:1080deg;right:600px;top:400px;scale: 3}
+    60%  {rotate:720deg;right:600px;top:400px;scale: 3}
+    80% {rotate:360deg;right:600px;top:400px; scale: 2}
+    100% {rotate:0deg; scale: 1}
+  }
+  #photo4:active{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: spinning;
+    animation-duration:8s;
+    animation-fill-mode: forwards;
+    transform: scale(1);
+  } 
+ 
+  @keyframes spinning{
+    0%   {rotate:360deg; left:0px; top:0px;scale: 1}
+    20%  {rotate:720deg;left:350%; top:25%;}
+    40%  {rotate:1080deg;left:450%; top:50%;scale: 2}
+    60%  {rotate:180deg;left:150%; top:-25%;}
+    80% {rotate:540deg;left:500%; top:75%;scale: 1.5}
+    90% {rotate:180deg;left:0%; top:0%;}
+    100% {rotate:0deg;left:0%; top:0%;scale: 1}
+  }
+
+#photo5:active{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: vol;
+  animation-duration:1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 3;
+  transform: scale(1);
+}
+
+@keyframes vol {
+  0%   {rotate:0deg; left:0px; bottom:0px;scale: 1}
+  50%  {rotate:360deg;left:350%; bottom:0px;scale: 2}
+  100% {rotate:0deg;left:0px; bottom:0px; scale: 1;}
+}
+
+#photo6:active{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: deplacement;
+  animation-duration:8s;
+  animation-fill-mode: forwards;
+  transform: scale(1);
+}
+
+@keyframes deplacement {
+  0%   {rotate:0deg;left:0px; bottom:0px;}
+  25%  {rotate:-90deg;left:650%; bottom:0px;}
+  50%  {rotate:-180deg;left:650%; bottom:90%;}
+  75%  {rotate:-270deg;left:0px; bottom:90%;}
+  100% {rotate:-360deg;left:0px; bottom:0px;}
+}

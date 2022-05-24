@@ -1,0 +1,107 @@
+﻿-----------------------------------------
+-------- ORION, UN NOUVEL HORIZON -------
+-----------------------------------------
+AUTEURS
+	Manil Boudjemai
+	William Caron
+	Laurence Carrier
+	Samuel Horvath
+	Déric Marchand
+
+GRAPHIQUES PERSONNALISÉS
+	William Caron
+
+À PARTIR DU TRAVAIL DE
+	Jean-Marc Deschamps
+
+
+PRÉSENTATION
+Orion, Un Nouvel Horizon est un jeu de type RTS qui
+cherche à promouvoir, à l'instar de la série Civilization® par Sid Meier,
+des interactions de nature diverse entre les joueurs, où
+la guerre se révèle souvent être le dernier recours. En effet, les joueurs 
+doivent user de finesse, d'intelligence et de diplomatie, car le Marché interstellaire
+et le Sénat régissent en grande partie les dynamiques de pouvoir de l'univers.
+De plus, la civilisation qui saura se développer le plus adéquatement d'un point
+de vue technique aura un avantage certain sur les autres.
+
+Forgez des alliances,
+choisissez la prochaine loi à voter,
+et manipulez l'offre et la demande au sein de l'univers.
+
+Orion, Un Nouvel Horizon : la prochain révolution vidéo-ludique.
+
+
+VERSION ACTUELLE 2.0
++ Construction de vaisseaux (sans coût pour le moment)
++ Envoi de vaisseaux sur des Étoiles conquises par le joueur
++ Types de vaisseaux dédiés à différents usages
+	- Cargo : extraction de ressource intelligente (extraction d'énergie et de ressources par aller-retours)
+	- Spacefighter : combat, peu coûteux, peu de vie, peu de dégâts, vitesse rapide
+	// Vaisseaux non-fonctionnelles :
+	- Colonisateur : coloniser étoiles habitables
+	- Scout : exploration de l'univers, capture de capsules d'informations
+	- Destroyer : combat, coûteux, beaucoup de vie et vitesse lente
++ Capsules d'information :
+	- Transportées par les vaisseaux et capturées automatiquement selon divers scénarios, 
+	ouvertes automatiquement lorsqu'un vaisseau qui contient des capsules d'informations 
+	entre dans le rayon d'une Étoile colonisée par un joueur (habitable avec structures)
++ Interface mise en place :
+	- Affichage des informations d'une Étoile sélectionnée (panneau latéral gauche)
+	- Affichage des informations d'un vaiseau sélectionné (panneau latéral gauche)
+	- Affichage des ressources possédées par le joueur (panneau supérieur)
+	- Affichage de différents boutons de menu (panneau supérieur)
+		- Affichage d'une fenêtre lors du clique d'un bouton
++ Possible d'extraire de l'énergie et des ressources sur une Étoile avec un Cargo:
+	- Sélectionner Cargo et cliquer sur Étoile avec énergie disponible
+	- Dépôt automatique des ressources
+	- Opération d'extraction d'énergie et de ressources se finalise par le retour automatique à l'étoile-mère du Cargo
+	- L'extraction n'est pas instantané, on doit attendre un certain nombre de tour de boucle pour pouvoir avoir les ressources
++ Affichage de sprites personnalisés de vaisseaux
+	- Scout
+	- Spacefighter
++ Colonisation possible d'une étoile avec vaisseau Colonisateur
++ Combat entre vaisseaux et contre Étoiles colonisées des autres joueurs
++ Implémentation de technologies
++ Implémentation du marché lorsque les joueurs débloquent la technologie Intrication quantique
++ Entretien passif d'une civilisation (les ressources d'un joueur descendent peu à peu selon les populations et les vaisseaux)
++ Implémentation passive des Alliances
++ Construction d'infrastructures sur des Étoiles
+	- Il est possible de construire une ferme, une raffinerie, un laboratoire et une usine sur l'étoile mère
+	- La Ferme augmente la génération automatique de l'eau et de la nourriture
+	- La Raffinerie augmente la quantité max des méteaux qu'on peut stocker(fer,cuivre,titanium)
+	- Le Laboratoire augmente la génération automatique de science
+	- L'usine permet de construire des vaisseaux sur l'étoile (NÉCESSAIRE)
+	- Il est possible de construire un satellite Défensif, Kamikaze et de Vision
+	- Le satellite Défensif permet de défendre l'étoile en tirant des vaisseaux ennemis
+	- Le satellite Kamikaze permet de défendre l'étoile en s'autodétruisant sur les vaiseaux ennemis
+	- Le satellite de Vision permet d'agrendir le champs de vision du joueur
+	- Ajoute des bonus de moral au joueur
++ Tous les vaisseaux peuvent se défendre, mais seulement les Spacefighters ont la capacité de lancer une attaque
+
+
+FONCTIONNALITÉS À VENIR (V 3.0)
++ Colonisation possible d'une étoile avec vaisseau Colonisateur
++ Brouillard de guerre
++ Total implémentation de TOUTES les technologies
++ Figures d'importance pour génération passive de Science, Diplomatie, Militaire, escomptes au Marché (Scientifique, Politicien, Général, Marchand)
++ Algorithme plus précis et développé sur le calcul de l'entretien passif d'une civilisation
++ Implémentations de diverses Merveilles avec bonus importants
++ Sprites manquants pour modèles de vaisseau (Colonisateur, Cargo, Destroyer)
++ Sprites pour satellites
++ Chat pour alliance et conversation intime (SnapChat Orion)
++ Implémentation de la meilleure fonctionnalité du projet : le Sénat intergalactique
++ Implémentation plus avancées des Alliances
++ Destroyer comme vaisseau offensif
+
+BUGS CONNUS
++ Annonces ne s'affichent pas lors de la construction d'un vaisseau sans usine ("Vous devez construire une usine")
++ Annonces ne s'affichent pas lorsque les prérequis lors de la construction d'un bâtiments ne sont pas répondus
++ Téléportation des Spacefighters lors des attaques
+	
+Affichage graphique des vaisseaux:
+	- Permet d'ajouter une touche visuelle au jeu Orion
+	- La création de ceux-ci se font grace a plusieurs lignes de couleurs différentes qui permet de créer une image (Pixel Art)
+	- Les différents types de vaisseaux qui utilisent ces images sont les Spacefighter et les Scouts
+	
+

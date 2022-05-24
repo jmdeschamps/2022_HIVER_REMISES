@@ -1,0 +1,57 @@
+
+
+#top
+{
+    text-align: center;
+}
+
+#bot
+    {
+    position: absolute;
+    bottom: 0%;
+    left: 47%;
+}
+
+#right
+{
+    position: absolute;
+    bottom: 50%;
+    right: 4%;
+}
+
+#left
+{
+    position: absolute;
+    bottom: 50%;
+    left: 4%;
+}
+
+#center
+{
+    position: absolute;
+    left: 47%;
+    bottom: 50%;
+}
+
+#indice
+{
+    position: absolute;
+    left: 30%;
+    bottom: 60%;
+}
+
+#mystere
+{
+    position: absolute;
+    left: 30%;
+    bottom: 45%;
+}
+
+#hidden
+{
+    position: absolute;
+    left: 47%;
+    bottom: 40%;
+    display: none;
+}
+

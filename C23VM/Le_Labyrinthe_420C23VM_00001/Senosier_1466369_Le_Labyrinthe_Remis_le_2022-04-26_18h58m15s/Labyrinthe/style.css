@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+:root
+{
+  --main-font: Sen, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  width: 100vw;
+  height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: var(--main-font);
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+div > a{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.up {
+  position: absolute;
+  width: 10%;
+  top: 5%;   
+}
+
+.left {
+  position: absolute;
+  width: 10%;
+  top: 40%;
+  left: 5%;
+  transform: rotate(270deg);  
+}
+
+.right {
+  position: absolute;
+  width: 10%;
+  top: 40%;
+  right: 5%;
+  transform: rotate(90deg);  
+}
+
+.bottom {
+  position: absolute;
+  width: 10%;
+  bottom: 5%;   
+  transform: rotate(180deg); 
+}
+
+.centre {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.centre2{
+  display: grid;
+  place-content: center;
+  animation: indice 3s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes indice {
+  0% {opacity: 0;}
+  25% {opacity: .5;}
+  50% {opacity: 1;}
+  75% {opacity: .25;}
+  100% {opacity: 0;display: none; visibility: hidden;}
+  
+}
+.centre > h1 {
+  visibility: hidden;
+}
+
+.centre:active > h1 {
+  visibility:visible;
+}
+
+@media screen and (max-width:800px) {
+  .centre2 {
+    font-size: 0.5rem;
+  }
+
+  
+}
