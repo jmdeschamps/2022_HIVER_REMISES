@@ -1,0 +1,116 @@
+ÉQUIPE 
+Yoan Poulin Truchon, Sean Hayes, Samuel Nadeau Mercado, Alexandre Caron
+
+MANIPULATION DANS L'AIRE DE JEU
+CREATION DE PERSOS
+
+Bouton-1 - Porte:
+On ne peut plus créer plusieurs ouvriers puisqu'ils représentent maintenant les Grim Reaper 
+et on ne peut qu'en avoir un à la fois.
+
+Bouton-1 - SoulFarm:							MODIFIÉ
+Lorsqu'il y a des âmes dans la Farm, on peut les transférer à la porte en cliquant dessus
+
+Bouton-1 - Rogue Factory
+Crée un Rogue Reaper 
+-- Il sert à voler les âmes des Usine Ballistes (farm) ennemis (pas encore implémenté)	MODIFIÉ
+
+Bouton-1 - Kid Factory
+Crée un Kid Reaper
+
+MANIPULATION DES PERSOS
+Bouton-1: sur le terrain:	déselectionne tout
+
+Bouton-1: sur les persos:	sélectionne le perso,
+	affiche une barre jaune, 
+	affiche les commandes associées
+
+Bouton-1: sur une ressource un Grim Reaper est selectionné:
+	commande d'aller ramasser cette ressource
+	Lorsque le Grim Reaper ramasse la ressource, deux boutons apparaissent en haut à gauche
+		C'est pour choisir où l'ouvrier apporte les ressources entre l'usine et la porte.
+	NOTE: les ressources disopnibles sont
+
+	tombes -> soul
+	humains -> soul
+
+	ATTENTION: lorsque la ressource est épuisée,
+	l'ouvrier arrête simplement et
+	envoie un message aux autres ouvriers
+
+Bouton-2: sur le terrain, si perso selectionné
+	dirige le perso à cet endroit
+			
+Majuscule-Bouton-1,glisse,relâche:
+	sur le terrain:	selectionne le groupe
+	de vos persos à l'intérieur
+	
+Passif:
+Kid Reaper attire constamment vers lui les humains qui sont à sa portée
+
+
+CREATION DE BATIMENT (si perso choisi)
+Bouton-1: Le bouton passe au gold (actif)
+et
+Bouton-3: sur le terrain, construit le batiment choisi
+	à cet endroit
+	ATTENTION - aucun test est effectué pour
+	permettre ou non de le positionner
+
+* CONTRAINTE DE CREATIONS DE BATIMENT:
+- Il n'y aura qu'une seule porte et usine farm par équipe.
+  On ne peut que les reconstruire lorsque détruites
+
+
+CHAT ET AIDE
+1- le chat permet l'envoie de message
+	à des joueurs spécifiques
+	 NOTE: pas d'envoie de groupe pour le moment
+2- le Bouton Chat change de couleur
+	lorsqu'un joueur reçoit une message
+3- le chat fait apparaitre un cadre dans la section gauche, 
+	en haut de la vue actuelle de la carte
+4- le bouton chat bascule la visibilité 
+	du cadre de chat (montre, cache)
+5- le chat se compose de la liste des messages,
+	d'un combo pour choisir un joueur 
+	et d'un champ d'entrée de texte
+6- le texte est envoyé sur la touche Return
+	(le texte n'est pas supprimé du champ)
+7- le bouton aide affiche (et bascule)
+	le cadre du texte d'aide
+8- l'aide apparait dans un cadre dans la section droite, 
+	en haut de la vue actuelle de la carte
+
+ÉTAT INITIAL DU JEU
+
+0- Chaque joueur est identifié par son nom, 
+	affiché dans la barre titre et dans
+	la section de commande, à droite
+1- l'aire de jeu est 4000x4000 pixels
+2- ressources du joueur affichées dans 
+	le HUD (Heads Up Display)
+3- bouton "Chat" et "Aide" dans le HUD 
+	(voir plus bas)
+4- la couleur de fond du HUD correspond 
+	à votre couleur
+5- l'aire de jeu est peuplé de Biotopes
+6- les régions brumes. simplement là pour un look glauque
+7- AU DÉPART: la carte se localise (scroll) 
+	pour mettre la porte d'origine et la soul farm
+	de chaque joueur dans 
+	la section visible
+8- les âmes s'acquièrent par le pillage de tombes ou
+	en tuant des humains
+	NOTE: les tombes sont générées aléatoirement
+9- Des humains peuplent aussi, aléatoirement, 
+	l'aire de jeu dès le départ, 
+	ils sont exploitables
+10- Une minicarte est créé et affiche
+	initialement les Biotopes
+11- Une boite de message important est créé et 
+	affiche le changement de jour et de nuit
+12- les Batiments sont représentés 
+	dans la minicarte
+13- La minicarte est cliquable pour faire des 
+	déplacement de l'aire de jeu

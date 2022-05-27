@@ -1,0 +1,55 @@
+MEMBRES DE L'ÉQUIPE
+Yoan Poulin Truchon
+Sean Hayes
+Alexandre Caron
+Samuel Nadeau Mercado
+
+AJOUTS Sprint 2:
+-	changement du jour et de la nuit, se manifeste par un changement de couleur de l`environement graphique. 
+	Il manque la modification du gameplay qui sera affecté par ce changment (des pierres tombales apparaissent 
+	pour la récolte de ames)
+
+-	implémentation de la musique (La musique fonctionne en partie. manque d'ajouter les tracks à chaque changement
+	de jour et nuit, dans le menu de départ, à la fin quand on a un gagnant).
+
+-	création du personnage du Grim reaper a partir de l`ouvirer, il ne peut y avoir qu`un seul Grim reaper par joueur.
+
+-	le Grim reaper peut collecter jusqu`a 5 ames avant d`aller les reporter a l`usine.(pour l`instant on 
+	considere que les ames sont les ressources résiduelles des daims).
+
+-	création du personnage du kid reaper a partir du personnage soldat.
+
+-	le Kid reaper a un capacité passive a attirer les ames vers lui des qu`elles sont dans un périmetre donné
+	(qui sont toujours représenté par des daims).
+
+-	il ne peut y avoir qu`un seul Grim reaper (encore représenter par l`ouvirer) et un seul 
+	Funeral (encore représenté par la balliste), lorsqu`ils sont tués et que le count est a 0, on peut les recréer.
+
+AJOUTS Sprint 3:
+-	Changement de gameplay au moment du jour et au moment de la nuit (les daims se sauvent la nuit, sont naifs le jour. 
+	Les tombes sont pleines la nuit et vide le jour)
+
+-	implémentation de la musique AVEC WINSOUND (et non playsound) (La musique fonctionne en partie. manque d'ajouter les tracks à chaque changement
+	de jour et nuit, dans le menu de départ, à la fin quand on a un gagnant).
+
+-	Changement de vitesse de certaines factions. Rogue va beaucoup plus vite que le Kid Reaper, qui va plus vite que le Grim Reaper.
+
+-	Les daims (bientot des humains) se sauvent des Factions la nuit, et relaxe dans les plaines le jour. (bug loop infini à corriger. certains daims
+	ne s'arrêtent pas dans leur fuite, alors que d'autres sont arrêtés)
+  
+  
+  AJOUTS Sprint 4 (dernier):
+  
+  - On peut attaquer les bâtiments et les personnages ennemis en cliquant sur le bouton gauche
+  
+  - On ne peut pas détruire le soul farm tant que le Funeral Reaper est en vie (le Funeral Reaper est le personnage qui spawn sur le sould farm en début de partie, pas celui qui spawn sur la porte) 
+  
+  - Les humains s'incrémentent au fur et a mesure qu'ils sont éliminés (Alex)
+  
+  - code non fonctionnel pour que les humains se sauvent des reapers la nuit, il y a une boucle sans fin. Pour tester mettre en commentaire la fonction déplacer() et trouverCible() de l'humain et décommenter les autres fonctions. Dans la fonction jouerProchainCoup() de la partie mettre en commentaire la ligne 1898 et décommenter la ligne 1899. (Alex)
+  
+   NOUVEAUX CONTRÔLES :
+   
+   - Bouton-1 sur les personnages et bâtiments ennemis
+   
+   - 

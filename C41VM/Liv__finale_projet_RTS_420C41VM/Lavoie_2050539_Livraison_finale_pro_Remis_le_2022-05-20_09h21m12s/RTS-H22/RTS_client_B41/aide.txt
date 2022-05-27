@@ -1,0 +1,119 @@
+ETAT INITIAL DU JEU
+
+0- Chaque joueur est identifie par son nom,
+	affiche dans la barre titre et dans
+	la section de commande, a droite
+1- l'aire de jeu est 4032x4032 pixels
+2- L'or du joueur est affichees dans
+	le HUD (Heads Up Display)
+3- bouton "Chat" et "Aide" dans le HUD 
+	(voir plus bas)
+4- la couleur de fond du HUD correspond 
+	à votre couleur
+5- l'aire de jeu est peuple de "regions"
+	Regions de 4 types:
+	"arbres","eau","roche","plaines"
+6- AU DEPART: la carte se localise (scroll)
+	pour mettre la maison d'origine 
+	de chaque joueur dans 
+	la section visible
+7- Chaque batiment possede une zone de controle
+    representee par des carres semi-transparents
+    de la couleur du joueur. Un batiment peut
+    etre construit UNIQUEMENT sur une
+    zone de controle appartenant au joueur
+8- l'or s'acquiert par la construction
+    de batiments d'exploitation:
+    - Scierie pour les arbres
+    - Mine pour la roche
+    - Pecherie pour l'eau
+    - Ferme pour les plaines
+    (Doivent etre construit sur ou pres
+    de la ressource associee)
+9-  Une Tour peut etre construite pour proteger
+    votre village, elle tire des fleches
+    sur les unites ennemies a proximite
+    (vous commencez la partie avec 4)
+10- Vos soldats attaqueront les unites ennemies
+    a proximite en priorite
+    - Soldats
+    - Ouvriers
+    - Tours
+    - Batiments
+11- Une minicarte est cree et affiche
+	initialement les regions
+12- les Batiments sont representes
+	dans la minicarte
+13- La minicarte est cliquable pour faire des
+	deplacement de l'aire de jeu
+14- Vous gagnez la partie lorsque vous etes
+    le dernier joueur avec une zone de controle
+
+MANIPULATION DANS L'AIRE DE JEU
+
+CREATION DE PERSOS
+Clic gauche: sur une maison: cree ouvrier
+
+Clic gauche: sur une caserne: cree un soldat
+
+MANIPULATION DES PERSOS
+Clic gauche: sur le terrain: deselectionne tout
+
+Clic gauche: sur les persos: selectionne le perso,
+	affiche une bar jaune
+
+Clic droit: sur le terrain, si perso selectionne
+	dirige le perso a cet endroit
+	(Si vous deplacer vos soldats pendant qu'ils
+	attaquent, ils desengageront le combat)
+			
+Clic gauche, glisse, relache:
+	sur le terrain:	selectionne le groupe
+	de vos persos a l'interieur
+
+CREATION DE BATIMENTS (si ouvrier choisi)
+Clic gauche: Le bouton passe au vert (actif)
+OU
+Raccourcis clavier:
+Touche 1: Village
+Touche 2: Caserne
+Touche 3: Ferme
+Touche 4: Scierie
+Touche 5: Tour
+Touche 6: Pecherie
+Touche 7: Mine
+et
+Clic droit: sur le terrain, construit le batiment choisi
+	a cet endroit (si dans la zone de controle)
+
+CHAT ET AIDE
+1- le chat permet l'envoie de message
+	a des joueurs specifiques
+	 NOTE: pas d'envoie de groupe pour le moment
+2- le Bouton Chat change de couleur
+	lorsqu'un joueur recoit un message
+3- le chat fait apparaitre un cadre dans la section gauche, 
+	en haut de la vue actuelle de la carte
+4- le bouton chat bascule la visibilite
+	du cadre de chat (montre, cache)
+5- le chat se compose de la liste des messages,
+	d'un combo pour choisir un joueur 
+	et d'un champ d'entree de texte
+6- le texte est envoye sur la touche Return
+	(le texte n'est pas supprime du champ)
+7- le bouton aide affiche (et bascule)
+	le cadre du texte d'aide
+8- l'aide apparait dans un cadre dans la section droite, 
+	en haut de la vue actuelle de la carte
+
+PRIX EN OR
+- Village: 40
+- Ferme: 10
+- Caserne: 20
+- Tour: 35
+- Scierie : 50
+- Pecherie: 50
+- Mine: 50
+
+- Ouvrier: 20
+- Soldat: 50
